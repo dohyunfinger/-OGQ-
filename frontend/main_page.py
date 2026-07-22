@@ -23,6 +23,7 @@ from .components.backup_browser_tts import (
     render_backup_browser_tts,
 )
 
+
 def get_gemini_api_key() -> str:
     """Streamlit secrets에서 Gemini API 키를 읽는다."""
 
