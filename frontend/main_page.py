@@ -243,6 +243,7 @@ def render_main_page() -> None:
                 f"발생했습니다: {error}"
             )
 
+
     last_answer = st.session_state.get(
         "last_answer",
         "",
