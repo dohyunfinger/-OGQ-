@@ -1,8 +1,25 @@
+from __future__ import annotations
+
 from google import genai
 
 
 class AIServiceError(Exception):
     """Gemini API 처리 중 발생하는 오류."""
+
+
+SYSTEM_PROMPT = """
+당신은 시니어 사용자를 위한 식품 전문 AI 도우미입니다.
+
+답변 규칙:
+1. 반드시 한국어로 답변합니다.
+2. 어려운 전문 용어보다 쉬운 표현을 사용합니다.
+3. 한 문장을 짧게 작성합니다.
+4. 답변은 기본적으로 3~5문장으로 작성합니다.
+5. 시장에서 사용하는 식품명과 지역 명칭을 존중합니다.
+6. 식품명이 불확실하면 임의로 추측하지 말고 다시 확인합니다.
+7. 외국 식재료는 한국에서 통용되는 이름을 함께 설명합니다.
+8. 알레르기, 질환, 약 복용과 관련된 내용은 단정하지 않습니다.
+"""
 
 
 def generate_response(
@@ -24,7 +41,10 @@ def generate_response(
 
         response = client.models.generate_content(
             model="gemini-3.5-flash",
-            contents=cleaned_input,
+            contents=(
+                f"{SYSTEM_PROMPT}\n\n"
+                f"사용자 질문:\n{cleaned_input}"
+            ),
         )
 
         if not response.text:
