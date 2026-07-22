@@ -1,6 +1,6 @@
 import streamlit as st
 
-from backend.ai_service import generate_response
+from backend.ai_service import AIServiceError, generate_response
 
 
 def render_main_page() -> None:
@@ -17,12 +17,32 @@ def render_main_page() -> None:
 
     if st.button("실행", use_container_width=True):
         try:
-            result = generate_response(user_input)
+            api_key = st.secrets["GEMINI_API_KEY"]
+
+            result = generate_response(
+                api_key=api_key,
+                user_input=user_input,
+            )
+
             st.success("백엔드 연결 성공")
             st.write(result)
+
+        except KeyError:
+            st.error(
+                ".streamlit/secrets.toml에 "
+                "GEMINI_API_KEY가 설정되어 있지 않습니다."
+            )
+
+        except FileNotFoundError:
+            st.error(
+                ".streamlit/secrets.toml 파일을 찾을 수 없습니다."
+            )
 
         except ValueError as error:
             st.warning(str(error))
 
-        except Exception:
-            st.error("처리 중 오류가 발생했습니다.")
+        except AIServiceError as error:
+            st.error(str(error))
+
+        except Exception as error:
+            st.error(f"예상하지 못한 오류가 발생했습니다: {error}")

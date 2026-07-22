@@ -16,7 +16,7 @@ def generate_response(
     if not cleaned_input:
         raise ValueError("입력 내용이 비어 있습니다.")
 
-    if not api_key:
+    if not api_key or not api_key.strip():
         raise AIServiceError("Gemini API 키가 없습니다.")
 
     try:
