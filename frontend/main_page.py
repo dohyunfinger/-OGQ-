@@ -19,7 +19,7 @@ from backend.tts_service import (
     TTSServiceError,
     generate_speech,
 )
-from frontend.components.backup_browser_tts import (
+from .components.backup_browser_tts import (
     render_backup_browser_tts,
 )
 
