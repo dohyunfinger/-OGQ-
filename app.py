@@ -1,6 +1,6 @@
 import streamlit as st
 
-from frontend.main_page import render_main_page
+from frontend.pages.home import render_home
 
 
 def main() -> None:
