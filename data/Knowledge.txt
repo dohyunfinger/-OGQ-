@@ -4365,7 +4365,7 @@ food_data = [
         "daily_recommended_amount": "약 10~15알 (약 10g)",
         "elderly_friendly_guide": "할머니, 불포화지방산과 철분이 가득해 기력을 높이고 빈혈과 피부 건조를 막아주는 잣이에요! 통째로 드시기보다는 고소하게 잣죽을 쑤어 드시면 위장에 전혀 부담 없이 기운을 돋워 줍니다.",
         "disease_info": {
-            "caution_diseases": ["비만", "설사가 잦은 어르신 (과식 시)"],
+            "caution_diseases": ["견과류 알레르기","비만", "설사가 잦은 어르신 (과식 시)"],
             "caution_reason": "열량과 지방 함량이 높으므로 한 번에 너무 많이 섭취하면 묽은 변이나 설사를 유발할 수 있으니 적량만 조리해 드세요.",
             "good_compatibility": "쌀, 꿀, 대추",
             "bad_compatibility": "없음"
@@ -4898,7 +4898,7 @@ food_data = [
         "daily_recommended_amount": "3~4알 (약 50g~60g)",
         "elderly_friendly_guide": "할머니, 비타민 C와 당질이 풍부해 위장을 강화하고 배탈을 가라앉혀 주는 밤이에요! 딱딱한 껍질을 까낸 뒤 푹 쪄서 속살을 숟가락으로 떠 드시거나 타락죽에 넣으시면 영양이 진국입니다.",
         "disease_info": {
-            "caution_diseases": ["당뇨병"],
+            "caution_diseases": ["견과류 알레르기","당뇨병"],
             "caution_reason": "전분과 당분 함량이 높아 소화 흡수가 빠르므로 당뇨가 있으신 어르신은 간식으로 너무 많이 드시지 않는 것이 좋습니다.",
             "good_compatibility": "우유, 대추",
             "bad_compatibility": "없음"
@@ -4926,7 +4926,7 @@ food_data = [
         "daily_recommended_amount": "1~2알 (약 15g)",
         "elderly_friendly_guide": "할아버지, 알파리놀렌산이 뇌 세포를 활성화해 기억력을 지켜주고 혈관을 깨끗하게 해주는 호두예요! 생으로 드시기보다는 잘게 다지거나 호두죽으로 쑤어 드시면 이롭습니다.",
         "disease_info": {
-            "caution_diseases": ["만성 설사", "고지혈증"],
+            "caution_diseases": ["만성 설사", "고지혈증","견과류 알레르기"],
             "caution_reason": "지방 비율이 높아 한 번에 너무 많은 양을 드시면 장을 자극해 묽은 변을 볼 수 있으니 하루 1~2알 적정량을 지켜주세요.",
             "good_compatibility": "곶감, 둔밥",
             "bad_compatibility": "없음"
@@ -4940,7 +4940,7 @@ food_data = [
         "daily_recommended_amount": "약 10~15알 (약 15g)",
         "elderly_friendly_guide": "할머니, 비타민 E와 올레산이 풍부해 혈관을 부드럽게 하고 피부 건조를 막아주는 땅콩이에요! 단단한 생땅콩보다는 푹 삶은 삶은땅콩이나 갈아서 땅콩죽으로 드시면 치아에 무리 없이 고소합니다.",
         "disease_info": {
-            "caution_diseases": ["땅콩 알레르기", "만성 설사"],
+            "caution_diseases": ["땅콩 알레르기", "만성 설사","견과류 알레르기"],
             "caution_reason": "지방 함량이 높아 과식 시 장을 자극할 수 있으며, 곰팡이가 생길 경우 아플라톡신 독소가 발생할 수 있으므로 신선한 것만 삶아 드셔야 합니다.",
             "good_compatibility": "우유, 멸치",
             "bad_compatibility": "없음"
@@ -4954,7 +4954,7 @@ food_data = [
         "daily_recommended_amount": "약 5~8알 (가루 또는 슬라이스 형태)",
         "elderly_friendly_guide": "할아버지, 비타민 E가 뇌 세포 노화를 막아주고 항산화 작용을 돕는 아몬드예요! 통째로 드시면 단단하여 치아가 다칠 수 있으니 아몬드 가루나 슬라이스를 요거트, 죽에 뿌려 드시면 좋습니다.",
         "disease_info": {
-            "caution_diseases": ["치아 약자", "신장 결석 환자"],
+            "caution_diseases": ["치아 약자", "신장 결석 환자","견과류 알레르기"],
             "caution_reason": "알갱이가 매우 단단하므로 통째 섭취 시 치아 파손 위험이 있고, 옥살산 성분이 들어있어 결석 위험이 있는 분은 적량만 드세요.",
             "good_compatibility": "요거트, 우유",
             "bad_compatibility": "없음"
@@ -4968,7 +4968,7 @@ food_data = [
         "daily_recommended_amount": "약 1~2큰술 (약 10g~15g)",
         "elderly_friendly_guide": "어르신, 오메가-3 혈관 영양소가 가득해 기억력을 보존하고 기침을 가라앉혀 주는 들깨예요! 거피를 낸 들깨가루를 나물이나 국에 넣어 드시면 아주 고소하고 소화도 잘됩니다.",
         "disease_info": {
-            "caution_diseases": ["특별한 부작용 없음"],
+            "caution_diseases": ["견과류 알레르기"],
             "caution_reason": "지방 성분이 풍부하므로 공기 중에 오래 노출되면 산패되기 쉬우므로 밀폐 용기에 보관하여 신선하게 드셔야 합니다.",
             "good_compatibility": "미역국, 토란, 나물류",
             "bad_compatibility": "없음"
@@ -4982,7 +4982,7 @@ food_data = [
         "daily_recommended_amount": "약 1큰술 (약 10g)",
         "elderly_friendly_guide": "할머니, 세사민 성물이 항산화 작용을 돕고 칼슘을 채워주는 참깨와 흑임자예요! 통깨는 그냥 배출되기 쉬우니 부드럽게 빻아 깨소금으로 쓰시거나 흑임자죽으로 드시면 영양이 쏙 흡수됩니다.",
         "disease_info": {
-            "caution_diseases": ["특별한 부작용 없음"],
+            "caution_diseases": ["견과류 알레르기"],
             "caution_reason": "통째로 드시면 소화되지 않고 배출되는 경우가 많으므로 갈아서 섭취하시는 것이 어르신 위장에 훨씬 이롭습니다.",
             "good_compatibility": "시금치, 쌀, 두부",
             "bad_compatibility": "없음"
@@ -4996,7 +4996,7 @@ food_data = [
         "daily_recommended_amount": "약 1작은술 (약 5g~10g)",
         "elderly_friendly_guide": "할아버지, 비타민 B군과 마그네슘이 신경을 안정시키고 혈액 순환을 돕는 해바라기씨예요! 입자가 작아 잘게 부수어 샐러드나 멸치볶음에 살짝 곁들여 드시면 고소함이 늘어납니다.",
         "disease_info": {
-            "caution_diseases": ["지방간", "비만"],
+            "caution_diseases": ["지방간", "비만","견과류 알레르기"],
             "caution_reason": "칼로리와 지방 비율이 높은 편이므로 한 번에 과식하지 않고 고명 수준으로 소량씩 드시는 것이 건강에 좋습니다.",
             "good_compatibility": "멸치, 샐러드",
             "bad_compatibility": "없음"
@@ -5332,7 +5332,7 @@ food_data = [
         "daily_recommended_amount": "약 5~8알 (가루 또는 부드럽게 볶음)",
         "elderly_friendly_guide": "할아버지, 비타민 K와 철분이 뼈를 튼튼하게 하고 빈혈을 예방해 주는 캐슈넛이에요! 다른 견과류보다 식감이 비교적 부드러우나 잘게 다져 스프나 조림에 넣으시면 식감이 우수합니다.",
         "disease_info": {
-            "caution_diseases": ["고지혈증 (과식 시)"],
+            "caution_diseases": ["고지혈증 (과식 시)","견과류 알레르기"],
             "caution_reason": "지방 성분이 많으므로 한 번에 너무 많이 드시면 칼로리가 높아질 수 있으니 적당량을 지켜주세요.",
             "good_compatibility": "멸치, 닭고기",
             "bad_compatibility": "없음"
@@ -5402,7 +5402,7 @@ food_data = [
         "daily_recommended_amount": "1알 (약 4g~5g)",
         "elderly_friendly_guide": "할아버지, 셀레늄이 압축되어 있어 면역력을 대폭 올려주고 항산화 작용을 돕는 브라질넛이에요! 단단하고 셀레늄이 매우 진하므로 강판에 갈아 하루 딱 한 알만 드시면 충분합니다.",
         "disease_info": {
-            "caution_diseases": ["셀레늄 과다증 (과식 시)"],
+            "caution_diseases": ["셀레늄 과다증 (과식 시)","견과류 알레르기"],
             "caution_reason": "하루 2알 이상 지속 섭취 시 셀레늄 중독(탈모, 구토, 어지럼증)을 유발할 수 있으므로 하루 1알 이하로 엄격히 제한하셔야 합니다.",
             "good_compatibility": "샐러드, 요거트",
             "bad_compatibility": "없음"
@@ -5416,7 +5416,7 @@ food_data = [
         "daily_recommended_amount": "약 3~5알 (약 10g~15g)",
         "elderly_friendly_guide": "할머니, 팔미톨레산이 풍부해 뇌 혈관을 건강하게 지켜주고 식감이 고소한 마카다미아예요! 부드러운 편이지만 치아 보호를 위해 잘게 쪼개거나 빻아 드시는 것이 이롭습니다.",
         "disease_info": {
-            "caution_diseases": ["고지혈증", "체중 조절 필요자"],
+            "caution_diseases": ["고지혈증", "체중 조절 필요자","견과류 알레르기"],
             "caution_reason": "견과류 중에서도 지방 및 칼로리 함량이 매우 높은 편이므로 한 번에 너무 많이 드시지 않도록 양을 조절해 주세요.",
             "good_compatibility": "우유, 시리얼",
             "bad_compatibility": "없음"
@@ -5612,7 +5612,7 @@ food_data = [
         "daily_recommended_amount": "약 3~5알 (약 10g~15g)",
         "elderly_friendly_guide": "어르신, 항산화 성분인 플라보노이드가 풍부해 뇌 세포를 보호하고 심장 건강을 높여주는 피칸이에요! 호두보다 부드러워 잘게 부수어 죽이나 샐러드에 얹어 드시면 고소함이 짙습니다.",
         "disease_info": {
-            "caution_diseases": ["고지혈증", "체중 조절 필요자"],
+            "caution_diseases": ["고지혈증", "체중 조절 필요자", "견과류 알레르기"],
             "caution_reason": "지방과 칼로리가 높은 편이므로 하루 권장량을 초과하지 않도록 소량씩 간식으로 챙겨 드시는 것이 좋습니다.",
             "good_compatibility": "메이플시럽(소량), 요거트",
             "bad_compatibility": "없음"
@@ -5696,7 +5696,7 @@ food_data = [
         "daily_recommended_amount": "약 2~3알 (약 5g~8g)",
         "elderly_friendly_guide": "할아버지, 오메가-3와 오메가-6 불포화지방산이 풍부해 혈전 방지와 중성지방 감소에 이로운 사차인치예요! 잘게 빻아서 죽이나 나물 무침에 고명으로 얹어 드시면 이롭습니다.",
         "disease_info": {
-            "caution_diseases": ["고지혈증", "과체중"],
+            "caution_diseases": ["고지혈증", "과체중","견과류 알레르기"],
             "caution_reason": "지방 비율이 높아 한 번에 5알 이상 과다 섭취할 경우 속쓰림이나 묽은 변을 유발할 수 있으므로 하루 2~3알 제한을 지켜주세요.",
             "good_compatibility": "샐러드, 요거트",
             "bad_compatibility": "없음"
