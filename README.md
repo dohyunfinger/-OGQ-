@@ -48,5 +48,3 @@
 | **로컬 AI 모델** | Faster-Whisper (On-Device STT Engine) |
 | **클라우드 API** | Gemini API (Vision / Multimodal), Gemini 2.5 Flash TTS, Web Speech API (Backup) |
 | **기획 및 디자인** | Figma / Claude Code / Markdown Specification |
-
-```
