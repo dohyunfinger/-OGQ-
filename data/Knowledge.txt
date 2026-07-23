@@ -4512,15 +4512,6 @@ food_data = [
             "bad_compatibility": "튀김류"
         }
     },
-    네, 계속해서 3단계 중복 검증을 거쳐 [4. 과일 / 곡류 / 견과 및 기타] 데이터셋을 순차적으로 이어가겠습니다!
-
-🍎 Part 4. [과일 / 곡류 / 견과 및 기타] 데이터셋 (ID 313 ~ 322)
-3-Step 중복 검증 완료: 기존 육류(ID 001~062), 채소류(ID 063~200), 수산물류(ID 201~301), 잣(ID 302) 및 앞서 작성한 과일류(ID 303~312) 전수 제외 완료.
-
-Python
-import json
-
-fruits_grains_dataset_313_322 = [
     {
         "id": 313,
         "category": "과일류",
@@ -5221,15 +5212,6 @@ fruits_grains_dataset_313_322 = [
             "bad_compatibility": "없음"
         }
     },
-    네, 3단계 중복 검증을 가동하여 [4. 과일 / 곡류 / 견과 및 기타] 데이터셋을 계속해서 작성하겠습니다.
-
-🌾 Part 4. [과일 / 곡류 / 견과 및 기타] 데이터셋 (ID 363 ~ 372)
-3-Step 중복 검증 완료: 기존 육류(ID 001~062), 채소류(ID 063~200), 수산물류(ID 201~301), 잣(ID 302) 및 앞서 작성한 과일/곡류/서류(ID 303~362) 전수 제외 완료.
-
-Python
-import json
-
-fruits_grains_dataset_363_372 = [
     {
         "id": 363,
         "category": "서류 및 기타",
@@ -5763,3 +5745,12 @@ fruits_grains_dataset_363_372 = [
         }
     }
 ]
+
+
+* **JSON 파일로 저장하기**
+  * 웹 애플리케이션이나 다른 시스템에서 불러와 사용하기 위해 하나의 `.json` 파일로 추출하여 저장할 수 있습니다.
+  ```python
+  import json
+
+  with open("senior_food_dataset_400.json", "w", encoding="utf-8") as f:
+      json.dump(food_data, f, ensure_ascii=False, indent=4)
