@@ -5763,20 +5763,3 @@ fruits_grains_dataset_363_372 = [
         }
     }
 ]
-
-# 2. TXT 파일로 바로 쓰기 (Formatting)
-txt_filename = "silverlens_food_data.txt"
-
-with open(txt_filename, "w", encoding="utf-8") as f:
-    f.write("=== SilverLens AI 식품 및 사투리 데이터셋 ===\n\n")
-    for item in food_data:
-        f.write(f"ID: {item['id']}\n")
-        f.write(f"표준 식재료명: {item['standard_name']}\n")
-        f.write("사투리 명칭:\n")
-        for region, names in item['dialects'].items():
-            f.write(f"  - {region} 방언: {', '.join(names)}\n")
-        f.write(f"하루 권장 섭취량: {item['daily_recommended_amount']}\n")
-        f.write(f"손자 AI 멘트 가이드: {item['elderly_friendly_guide']}\n")
-        f.write("-" * 50 + "\n\n")
-
-print(f"'{txt_filename}' 파일 생성이 완료되었습니다.")
