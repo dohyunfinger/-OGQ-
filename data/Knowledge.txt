@@ -5743,7 +5743,431 @@ food_data = [
             "good_compatibility": "사과주스, 따뜻한 물",
             "bad_compatibility": "없음"
         }
+    },
+    {
+    "id": 401,
+    "category": "육류",
+    "standard_name": "메추리알",
+    "dialects": {"중부": ["메추리알"], "동남": ["메추리알"], "서남": ["메추리알"], "제주": ["메추리알"]},
+    "daily_recommended_amount": "약 40g~50g (약 4~5개)",
+    "elderly_friendly_guide": "할머니, 크기는 작지만 단백질과 비타민 A, B2가 알차게 들어있는 메추리알이에요! 한 입에 드시기 좋고 부드러워 어르신 장조림 반찬으로 아주 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["고콜레스테롤혈증"],
+      "caution_reason": "노른자에 콜레스테롤이 함유되어 있으므로 고지혈증이 심하신 경우 하루 3~4개 이내로 조절해 드시는 것이 좋습니다.",
+      "good_compatibility": "꽈리고추, 표고버섯",
+      "bad_compatibility": "없음"
     }
+  },
+  {
+    "id": 402,
+    "category": "육류",
+    "standard_name": "오골계",
+    "dialects": {"중부": ["오골계", "오계"], "동남": ["오골계"], "서남": ["오골계"], "제주": ["오골계"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할아버지, 예로부터 왕실 보양식으로 쓰이던 오골계예요! 일반 닭보다 철분과 기력 회복 물질이 풍부하니, 푹 삼계탕으로 끓여 따뜻한 국물과 함께 드세요.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "고단백 저지방 식품으로 큰 부작용은 없으나, 국물 요리 시 나트륨 함량이 높지 않도록 싱겁게 간을 하세요.",
+      "good_compatibility": "인삼, 황기, 대추",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 403,
+    "category": "육류",
+    "standard_name": "닭가슴살",
+    "dialects": {"중부": ["닭가슴살"], "동남": ["닭가슴살"], "서남": ["닭가슴살"], "제주": ["닭가슴살"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할머니, 지방이 거의 없고 고단백질이라 어르신 근육 유지에 가장 좋은 닭가슴살이에요! 퍽퍽할 수 있으니 푹 삶아 결대로 찢어 샐러드나 찢은 국거리로 드시면 부드럽습니다.",
+    "disease_info": {
+      "caution_diseases": ["신장 질환"],
+      "caution_reason": "단백질 함량이 매우 높으므로 신장 기능이 많이 저하된 어르신은 전담 의사/영양사와 상담 후 적정량을 섭취하세요.",
+      "good_compatibility": "브로콜리, 채소류, 올리브유",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 404,
+    "category": "육류",
+    "standard_name": "소갈비",
+    "dialects": {"중부": ["소갈비", "쇠갈비"], "동남": ["소갈비"], "서남": ["쇠갈비"], "제주": ["소갈비"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할아버지, 풍미가 깊고 고소한 소갈비예요! 뼈 주변 살이 질길 수 있으니 칼집을 깊게 넣고 배나 무를 넣은 양념에 오래 재워 찜으로 드시면 부드럽게 씹으실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증", "비만"],
+      "caution_reason": "지방 함량이 높으므로 핏물을 뺄 때 기름기를 떼어내고, 조리 후 상온에서 식혀 굳은 기름을 거둬내고 드시는 것이 좋습니다.",
+      "good_compatibility": "배, 무, 표고버섯",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 405,
+    "category": "육류",
+    "standard_name": "돼지삼겹살",
+    "dialects": {"중부": ["삼겹살", "돼지삼겹살"], "동남": ["삼겹살", "세겹살"], "서남": ["삼겹살"], "제주": ["삼겹살", "도새기삼겹"]},
+    "daily_recommended_amount": "약 70g~80g",
+    "elderly_friendly_guide": "할머니, 어르신들이 좋아하시는 고소한 삼겹살이에요! 구이보다는 수육이나 찜으로 푹 삶아 기름을 빼고 잘게 잘라 드시면 소화에도 부담이 적고 부드럽습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증", "동맥경화"],
+      "caution_reason": "포화지방 비율이 높으므로 직화 구이보다는 수육 방식으로 지방을 제거하여 섭취하시길 권장합니다.",
+      "good_compatibility": "새우젓, 마늘, 쌈채소",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 406,
+    "category": "육류",
+    "standard_name": "돼지목살",
+    "dialects": {"중부": ["돼지목살", "목살"], "동남": ["목살"], "서남": ["목살"], "제주": ["목살"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할아버지, 삼겹살보다 지방은 적고 살코기가 풍부한 돼지목살이에요! 찌개나 불고기용으로 얇게 쓸어 조리하시면 필수 아미노산과 비타민 B1을 효과적으로 섭취할 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "살코기 비중이 높으나 비계 부위는 잘라내고 살코기 위주로 조리하여 섭취하세요.",
+      "good_compatibility": "양파, 김치, 부추",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 407,
+    "category": "육류",
+    "standard_name": "훈제오리",
+    "dialects": {"중부": ["훈제오리"], "동남": ["훈제오리"], "서남": ["훈제오리"], "제주": ["훈제오리"]},
+    "daily_recommended_amount": "약 70g~80g",
+    "elderly_friendly_guide": "할머니, 조리가 간편하고 부드러운 훈제오리예요! 이미 간이 되어 있고 기름이 많으니 찜기에 찌거나 뜨거운 물에 살짝 데쳐 기름과 염분을 빼고 드세요.",
+    "disease_info": {
+      "caution_diseases": ["고혈압", "신장 질환"],
+      "caution_reason": "훈제 가공 과정에서 나트륨 함량이 높아질 수 있으므로 데쳐서 염분을 줄인 후 섭취하세요.",
+      "good_compatibility": "부추, 쌈무, 머스타드(저염)",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 408,
+    "category": "육류",
+    "standard_name": "돼지염통",
+    "dialects": {"중부": ["돼지염통", "돼지심장"], "동남": ["돼지염통"], "서남": ["돼지염통"], "제주": ["돼지염통"]},
+    "daily_recommended_amount": "약 50g~70g",
+    "elderly_friendly_guide": "할아버지, 순대와 함께 자주 드시는 쫄깃한 돼지염통이에요! 지방이 적고 철분이 풍부하나 질길 수 있으니 얇게 슬라이스하여 푹 삶아 드세요.",
+    "disease_info": {
+      "caution_diseases": ["통풍", "고콜레스테롤혈증"],
+      "caution_reason": "내장류 특성상 퓨린과 콜레스테롤 함량이 있으므로 통풍이나 고지혈증이 있으신 경우 과식을 피하세요.",
+      "good_compatibility": "깻잎, 마늘, 초고추장",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 409,
+    "category": "육류",
+    "standard_name": "소안심",
+    "dialects": {"중부": ["소안심", "쇠안심"], "동남": ["소안심"], "서남": ["쇠안심"], "제주": ["소안심"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할머니, 소고기 중 가장 부드럽고 결이 고운 안심 부위예요! 씹는 힘이 약하신 어르신도 부드럽게 드실 수 있으며 기력 회복과 근육 유지에 매우 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["통풍"],
+      "caution_reason": "기름기가 적어 건강에 좋지만, 퓨린 성분이 있으므로 통풍 발작 주기에는 섭취량을 줄이세요.",
+      "good_compatibility": "버섯류, 올리브유, 무",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 410,
+    "category": "육류",
+    "standard_name": "닭다리살",
+    "dialects": {"중부": ["닭다리살"], "동남": ["닭다리살"], "서남": ["닭다리살"], "제주": ["닭다리살"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할아버지, 퍽퍽하지 않고 적당히 기름진 부드러운 닭다리살이에요! 껍질을 제거하고 살코기만 정육하여 조림이나 찜으로 만드시면 어르신이 드시기에 매우 촉촉합니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "닭껍질 부위에 지방이 집중되어 있으므로 조리 전 껍질을 제거하면 지방 섭취를 크게 줄일 수 있습니다.",
+      "good_compatibility": "단호박, 대파, 간장양념",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 411,
+    "category": "육류",
+    "standard_name": "소갈비살",
+    "dialects": {"중부": ["소갈비살", "갈비살"], "동남": ["갈비살"], "서남": ["갈비살"], "제주": ["갈비살"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할머니, 쫄깃하고 고소한 소 갈비뼈 사이 살코기예요! 결대로 잔칼집을 내어 불고기나 찜으로 조리하시면 씹기 편하고 고소합니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "지방 함량이 높은 편이므로 연하게 삶아 기름기를 거둬내고 드시는 것이 좋습니다.",
+      "good_compatibility": "양파, 버섯",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 412,
+    "category": "육류",
+    "standard_name": "소양지",
+    "dialects": {"중부": ["소양지", "양지"], "동남": ["양지"], "서남": ["양지머리"], "제주": ["양지"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할아버지, 푹 끓일수록 진한 국물이 나오는 소 양지머리예요! 국거리나 장조림용으로 푹 삶아 결대로 가늘게 찢어 드시면 아주 부드럽습니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "오래 익히면 부드럽지만, 덜 익히면 질길 수 있으므로 푹 삶아 살코기 위주로 드세요.",
+      "good_compatibility": "무, 대파, 곤약",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 413,
+    "category": "육류",
+    "standard_name": "소사태",
+    "dialects": {"중부": ["소사태", "사태"], "동남": ["아롱사태"], "서남": ["사태"], "제주": ["사태"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "어르신, 지방이 적고 콜라겐과 살코기가 알차게 섞인 소 사태 부위예요! 수육이나 찜으로 오랫동안 푹 조리하시면 입에서 연하게 부서집니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "지방이 매우 적어 건강에 좋지만 근육 조직이 단단하므로 충분한 시간 동안 푹 삶아 드셔야 합니다.",
+      "good_compatibility": "부추, 겨자소스, 무",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 414,
+    "category": "육류",
+    "standard_name": "돼지등심",
+    "dialects": {"중부": ["돼지등심"], "동남": ["돼지등심"], "서남": ["돼지등심"], "제주": ["돼지등심"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할머니, 지방이 매우 적고 담백해 어르신 단백질 보충에 제격인 돼지 등심이에요! 돈가스나 잡채용, 장조림으로 부드럽게 재워 드시면 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["신장 질환"],
+      "caution_reason": "고단백 살코기 부위이므로 신장 기능이 저하된 경우 적정량만 조절하여 드세요.",
+      "good_compatibility": "사과, 파프리카",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 415,
+    "category": "육류",
+    "standard_name": "돼지안심",
+    "dialects": {"중부": ["돼지안심"], "동남": ["돼지안심"], "서남": ["돼지안심"], "제주": ["돼지안심"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할아버지, 돼지고기 부위 중 가장 연하고 부드러운 안심 부위예요! 지방이 거의 없어 소화가 잘되며, 어르신 장조림이나 장국에 넣으시면 소화가 잘됩니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "저지방 고단백 건강 부위로 수육이나 조림 방식으로 촉촉하게 조리하세요.",
+      "good_compatibility": "꽈리고추, 버섯",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 416,
+    "category": "육류",
+    "standard_name": "닭날개 (윙/봉)",
+    "dialects": {"중부": ["닭날개"], "동남": ["닭날개"], "서남": ["닭날개"], "제주": ["닭날개"]},
+    "daily_recommended_amount": "약 70g~90g",
+    "elderly_friendly_guide": "어르신, 콜라겐과 젤라틴이 풍부하여 피부와 관절을 부드럽게 해주는 닭날개예요! 튀기지 않고 간장 양념에 푹 조려 드시면 잘 발라 드실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "껍질 비중이 높아 지방 함량이 높은 편이므로 튀김 조리는 피하고 찜으로 기름기를 빼고 드세요.",
+      "good_compatibility": "생강, 대파",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 417,
+    "category": "육류",
+    "standard_name": "돼지꼬리",
+    "dialects": {"중부": ["돼지꼬리"], "동남": ["돼지꼬리"], "서남": ["돼지꼬리"], "제주": ["돼지꼬리"]},
+    "daily_recommended_amount": "약 50g~70g",
+    "elderly_friendly_guide": "할머니, 쫀득쫀득한 콜라겐 덩어리로 관절 건강과 기력 보충에 도움 되는 별미 돼지꼬리예요! 족발처럼 푹 삶아 연하게 양념해 드시면 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증", "비만"],
+      "caution_reason": "콜라겐과 함께 포화지방 수치가 있으므로 과식하지 않도록 양을 조절하여 섭취하세요.",
+      "good_compatibility": "새우젓, 마늘",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 418,
+    "category": "육류",
+    "standard_name": "돼지 지라 (돼지 비장)",
+    "dialects": {"중부": ["돼지지라", "지라"], "동남": ["지라"], "서남": ["지라"], "제주": ["돼지지라"]},
+    "daily_recommended_amount": "약 40g~50g",
+    "elderly_friendly_guide": "할아버지, 철분과 혈액 생성을 돕는 영양이 가득한 전통 내장 부위 돼지 지라예요! 푹 삶아 얇게 슬라이스해 부드럽게 드시면 빈혈 예방에 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["통풍"],
+      "caution_reason": "내장 식품 특성상 퓨린 성분이 많으므로 요산 관리가 필요하신 경우 소량만 섭취하세요.",
+      "good_compatibility": "부추, 마늘",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 419,
+    "category": "육류",
+    "standard_name": "닭가슴살 통조림",
+    "dialects": {"중부": ["닭가슴살 캔", "닭고기 통조림"], "동남": ["닭가슴살 캔"], "서남": ["닭가슴살 캔"], "제주": ["닭가슴살 캔"]},
+    "daily_recommended_amount": "1캔 (약 90g~130g)",
+    "elderly_friendly_guide": "어르신, 이미 푹 삶아져 결대로 찢어 나와 치아가 약해도 아주 쉽게 드실 수 있는 닭가슴살 캔이에요! 국물 요리나 계란말이에 넣으시면 간편합니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압"],
+      "caution_reason": "가공 식품 특성상 나트륨이 포함되어 있으므로 보존액(충진수)을 체에 받쳐 버리고 따뜻한 물에 한 번 헹궈 사용하세요.",
+      "good_compatibility": "계란, 채소류",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 420,
+    "category": "육류",
+    "standard_name": "소 등심",
+    "dialects": {"중부": ["소등심", "쇠등심"], "동남": ["소등심"], "서남": ["쇠등심"], "제주": ["소등심"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할머니, 육즙이 풍부하고 풍미가 훌륭한 소 등심 부위예요! 연하게 불고기 양념을 하거나 가늘게 채 썰어 볶아 드시면 어르신 기력 보충에 최고입니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "떡심(힘줄)이나 지방질 부분은 씹기 질길 수 있으므로 손질 시 제거하고 살코기 위주로 드시는 것이 좋습니다.",
+      "good_compatibility": "배, 양파, 표고버섯",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 421,
+    "category": "육류",
+    "standard_name": "소 차돌박이",
+    "dialects": {"중부": ["차돌박이", "차돌"], "동남": ["차돌박이"], "서남": ["차돌박이"], "제주": ["차돌박이"]},
+    "daily_recommended_amount": "약 60g~80g",
+    "elderly_friendly_guide": "어르신, 고소한 지방과 살코기가 얇게 썰려 씹기 편한 소 차돌박이예요! 된장찌개에 넣거나 부추와 함께 살짝 볶아 드시면 풍미가 뛰어납니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증", "비만"],
+      "caution_reason": "흰색 지방 비중이 높으므로 혈관 건강 수치가 높으신 분은 소량만 섭취하시길 권장합니다.",
+      "good_compatibility": "부추, 된장, 팽이버섯",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 422,
+    "category": "육류",
+    "standard_name": "돼지 갈매기살",
+    "dialects": {"중부": ["갈매기살"], "동남": ["갈매기살"], "서남": ["갈매기살"], "제주": ["갈매기살"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할머니, 돼지의 횡격막 부위로 소고기처럼 담백하고 육즙이 풍부한 갈매기살이에요! 결대로 잔칼집을 내어 연하게 볶아 드시면 소화가 잘 됩니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "근막이 붙어있으면 씹기 힘들 수 있으므로 조리 전 근막을 제거하고 살코기 위주로 부드럽게 조리하세요.",
+      "good_compatibility": "양파, 마늘",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 423,
+    "category": "육류",
+    "standard_name": "돼지 항정살",
+    "dialects": {"중부": ["항정살", "천겹살"], "동남": ["항정살"], "서남": ["항정살"], "제주": ["항정살"]},
+    "daily_recommended_amount": "약 70g~90g",
+    "elderly_friendly_guide": "할아버지, 돼지 목에서 어깨로 이어지는 부위로 아삭하고 고소한 항정살이에요! 푹 쪄서 기름기를 빼고 얇게 썰어 드시면 부드럽습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "마블링과 지방 함량이 높은 편이므로 구이보다는 삶거나 쪄서 기름을 거둬내고 드시는 것이 안전합니다.",
+      "good_compatibility": "명이나물, 와사비, 배추",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 424,
+    "category": "육류",
+    "standard_name": "돼지 가브리살 (등심겹살)",
+    "dialects": {"중부": ["가브리살", "등심겹살"], "동남": ["가브리살"], "서남": ["가브리살"], "제주": ["가브리살"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "어르신, 돼지 등심 잡육으로 연하고 부드러워 어르신들 씹기 아주 좋은 가브리살이에요! 불고기 양념에 재워 드시면 입에서 부드럽게 넘어갑니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "단백질과 유익한 지방이 알차지만 과식할 경우 칼로리가 높아질 수 있으니 적정량을 준수하세요.",
+      "good_compatibility": "버섯, 쌈채소",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 425,
+    "category": "육류",
+    "standard_name": "닭 목살",
+    "dialects": {"중부": ["닭목살"], "동남": ["닭목살"], "서남": ["닭목살"], "제주": ["닭목살"]},
+    "daily_recommended_amount": "약 70g~90g",
+    "elderly_friendly_guide": "할머니, 닭 한 마리에서 아주 조금 나오는 부드럽고 쫄깃한 별미 닭 목살이에요! 뼈를 다 발라낸 순살 닭목살을 살짝 조려 드시면 씹기 편합니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "수분이 많고 연한 살코기 부위이나 잔뼈가 남아있는지 조리 시 확인해 주시는 것이 안전합니다.",
+      "good_compatibility": "대파, 생강",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 426,
+    "category": "육류",
+    "standard_name": "소 대창 (소 대장)",
+    "dialects": {"중부": ["소대창", "대창"], "동남": ["소대창"], "서남": ["소대창"], "제주": ["소대창"]},
+    "daily_recommended_amount": "약 50g~70g",
+    "elderly_friendly_guide": "어르신, 고소한 풍미와 미네랄이 들어있는 소 대창 부위예요! 질길 수 있으므로 탕이나 전골로 오랫동안 푹 삶아 아주 연하게 조리해 드세요.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증", "소화불량"],
+      "caution_reason": "내부 지방 함량이 매우 높으므로 기름기를 충분히 끓여 걷어내고 드셔야 소화 장애나 혈관 부담을 줄일 수 있습니다.",
+      "good_compatibility": "양배추, 부추",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 427,
+    "category": "육류",
+    "standard_name": "돼지 볼살 (뼘따구살/볼떼기살)",
+    "dialects": {"중부": ["돼지볼살", "볼살"], "동남": ["볼떼기살"], "서남": ["볼살"], "제주": ["볼살"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할머니, 돼지 머리 부위의 지방이 적고 젤라틴이 풍부한 쫄깃 살코기 볼살이에요! 푹 삶아 찜이나 찌개에 넣으시면 입에서 부드럽게 씹힙니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "지방이 적고 젤라틴이 많아 건강에 좋으며, 푹 삶는 수육 형태 조리가 소화에 가장 좋습니다.",
+      "good_compatibility": "새우젓, 마늘",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 428,
+    "category": "육류",
+    "standard_name": "소 양지머리 수육 통조림 (쇠고기 캔)",
+    "dialects": {"중부": ["소고기 캔", "장조림 캔"], "동남": ["소고기 통조림"], "서남": ["소고기 캔"], "제주": ["소고기 캔"]},
+    "daily_recommended_amount": "1캔 (약 90g~100g)",
+    "elderly_friendly_guide": "할아버지, 완제품 형태로 부드럽게 무쳐 나와 잇몸으로도 쉽게 드실 수 있는 소고기 통조림이에요! 죽이나 미역국에 그대로 넣어 끓여 드시면 간편합니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압"],
+      "caution_reason": "가공 시 염분이 가첨되어 있을 수 있으므로 국물을 짜내고 건더기 위주로 요리에 활용하세요.",
+      "good_compatibility": "무, 미역",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 429,
+    "category": "육류",
+    "standard_name": "돼지 토시살",
+    "dialects": {"중부": ["돼지토시살"], "동남": ["토시살"], "서남": ["토시살"], "제주": ["토시살"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "어르신, 돼지 한 마리당 아주 적게 나오며 기름기가 적고 육즙이 진한 토시살이에요! 가늘게 채 썰어 버섯과 함께 볶아 드시면 소화 흡수가 뛰어납니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "지방이 적은 고단백 특수부위로, 바짝 구우면 뻑뻑해질 수 있으니 자작하게 조려 드시는 것이 좋습니다.",
+      "good_compatibility": "표고버섯, 대파",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 430,
+    "category": "육류",
+    "standard_name": "소 꾸리살 (견갑골 살코기)",
+    "dialects": {"중부": ["꾸리살"], "동남": ["꾸리살"], "서남": ["꾸리살"], "제주": ["꾸리살"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할아버지, 지방이 거의 없고 지방 단백질 비율이 높아 기력 회복에 최고인 소 꾸리살이에요! 육회 대신 장조림이나 불고기로 푹 조려 드시면 씹기 연하고 담백합니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "힘줄이 일부 섞여 있을 수 있으니 자르는 과정에서 정돈하고 푹 삶아 부드럽게 드시는 것이 좋습니다.",
+      "good_compatibility": "꽈리고추, 마늘",
+      "bad_compatibility": "없음"
+    }
+  },
+
+
+
+
 ]
 
 
