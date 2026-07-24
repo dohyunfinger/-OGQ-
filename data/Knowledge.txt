@@ -6168,6 +6168,158 @@ food_data = [
 
 
 
+
+
+
+
+{
+    "id": 431,
+    "category": "유지방류",
+    "standard_name": "우유",
+    "dialects": {"중부": ["우유", "소젖"], "동남": ["우유"], "서남": ["우유"], "제주": ["우유"]},
+    "daily_recommended_amount": "약 200ml (1컵)",
+    "elderly_friendly_guide": "할머니, 칼슘과 단백질이 풍부해 뼈를 튼튼하게 해주는 대표 영양 음료 우유예요! 소화가 잘 안 되시거나 유당불내증이 있으시면 따뜻하게 데워 드시거나 락토프리(유당분해) 우유를 권해드려요.",
+    "disease_info": {
+      "caution_diseases": ["유당불내증", "고지혈증"],
+      "caution_reason": "차가운 우유는 장을 자극해 설사를 유발할 수 있으니 미지근하게 데워 드시고, 고지혈증이 있으신 경우 저지방/무지방 우유를 선택해 주세요.",
+      "good_compatibility": "바나나, 고구마, 견과류",
+      "bad_compatibility": "홍차, 녹차 (탄닌 성분이 칼슘 흡수 방해)"
+    }
+  },
+  {
+    "id": 432,
+    "category": "유지방류",
+    "standard_name": "플레인 요구르트 (요거트)",
+    "dialects": {"중부": ["요거트", "요구르트"], "동남": ["요거트"], "서남": ["요거트"], "제주": ["요거트"]},
+    "daily_recommended_amount": "약 80g~100g",
+    "elderly_friendly_guide": "할아버지, 유산균이 가득해 장 건강과 배변 활동을 도와주는 플레인 요구르트예요! 목 넘김이 부드러워 어르신 간식으로 아주 좋으며, 당분이 적은 플레인을 선택해 드세요.",
+    "disease_info": {
+      "caution_diseases": ["당뇨병"],
+      "caution_reason": "시판 가공 요구르트에는 설탕이나 과당이 많이 포함되어 있을 수 있으므로 무첨가(무당) 플레인 제품을 섭취하세요.",
+      "good_compatibility": "블루베리, 견과류, 사과",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 433,
+    "category": "유지방류",
+    "standard_name": "버터",
+    "dialects": {"중부": ["버터"], "동남": ["버터"], "서남": ["버터"], "제주": ["버터"]},
+    "daily_recommended_amount": "약 10g (약 1작은술)",
+    "elderly_friendly_guide": "어르신, 고소한 풍미와 비타민 A가 들어있는 천연 버터예요! 입맛이 없으실 때 죽이나 감자, 고구마에 살짝 곁들이시면 식욕을 돋우는 데 도움이 됩니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증", "심혈관 질환"],
+      "caution_reason": "포화지방 비율이 매우 높으므로 심혈관 질환이 있는 어르신은 섭취량을 엄격히 제한해야 합니다.",
+      "good_compatibility": "감자, 식빵, 옥수수",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 434,
+    "category": "유지방류",
+    "standard_name": "생크림",
+    "dialects": {"중부": ["생크림"], "동남": ["생크림"], "서남": ["생크림"], "제주": ["생크림"]},
+    "daily_recommended_amount": "약 15g~20g",
+    "elderly_friendly_guide": "할머니, 우유의 지방층을 모아 만들어 부드러운 생크림이에요! 음식을 삼키기 힘드실 때 스프나 스튜에 조금 넣으면 부드럽게 드시기 편해집니다.",
+    "disease_info": {
+      "caution_diseases": ["비만", "고지혈증"],
+      "caution_reason": "열량과 지방 함량이 높아 과식 시 체중 증가나 열량 과다를 유발할 수 있으니 양념용으로 소량만 사용하세요.",
+      "good_compatibility": "단호박, 양송이버섯",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 435,
+    "category": "유지방류",
+    "standard_name": "체다 치즈 (슬라이스 치즈)",
+    "dialects": {"중부": ["슬라이스 치즈", "노란 치즈"], "동남": ["치즈"], "서남": ["치즈"], "제주": ["치즈"]},
+    "daily_recommended_amount": "1장 (약 20g)",
+    "elderly_friendly_guide": "할아버지, 칼슘이 우유보다 농축되어 있어 뼈 건강과 단백질 보충에 좋은 슬라이스 치즈예요! 죽이나 계란말이에 살짝 올려 드시면 씹기 편하고 고소합니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압"],
+      "caution_reason": "가공 치즈는 나트륨(소금) 함량이 높을 수 있으므로 나트륨을 낮춘 저염 치즈를 선택하시길 권장합니다.",
+      "good_compatibility": "계란, 식빵, 브로콜리",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 436,
+    "category": "유지방류",
+    "standard_name": "모짜렐라 치즈 (피자 치즈)",
+    "dialects": {"중부": ["모짜렐라", "피자치즈"], "동남": ["피자치즈"], "서남": ["피자치즈"], "제주": ["피자치즈"]},
+    "daily_recommended_amount": "약 20g~30g",
+    "elderly_friendly_guide": "어르신, 쫄깃하고 짠맛이 적어 고소한 모짜렐라 치즈예요! 야채 볶음이나 단호박 찜 위에 솔솔 뿌려 녹여 드시면 연하고 맛있습니다.",
+    "disease_info": {
+      "caution_diseases": ["소화불량"],
+      "caution_reason": "치즈가 식어서 굳으면 씹기 질겨지거나 소화가 잘 안될 수 있으니 따뜻하게 녹아있을 때 드시는 것이 좋습니다.",
+      "good_compatibility": "토마토, 가지, 단호박",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 437,
+    "category": "유지방류",
+    "standard_name": "코티지 치즈 (리코타 치즈)",
+    "dialects": {"중부": ["리코타 치즈", "코티지 치즈"], "동남": ["리코타 치즈"], "서남": ["리코타 치즈"], "제주": ["리코타 치즈"]},
+    "daily_recommended_amount": "약 30g~50g",
+    "elderly_friendly_guide": "할머니, 우유로 만들어 두부처럼 몽글몽글하고 담백한 코티지 치즈예요! 지방이 적고 부드러워 어르신 샐러드나 빵에 얹어 드시기 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "일반 치즈에 비해 지방과 나트륨이 적어 고령자분들이 부담 없이 드실 수 있는 건강 유제품입니다.",
+      "good_compatibility": "토마토, 시금치, 꿀",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 438,
+    "category": "유지방류",
+    "standard_name": "기 버터 (Ghee / 정제 버터)",
+    "dialects": {"중부": ["정제버터", "기버터"], "동남": ["기버터"], "서남": ["기버터"], "제주": ["기버터"]},
+    "daily_recommended_amount": "약 5g~10g (약 1작은술)",
+    "elderly_friendly_guide": "할아버지, 버터에서 수분과 단백질 성분을 제거하여 소화가 훨씬 잘 되는 인도식 정제 버터예요! 유당이 거의 없어 장이 예민한 어르신 조리용 기름으로 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "유당 수치는 낮지만 순수 순지방이므로 혈중 지질 수치가 높으신 분은 소량만 섭취해 주세요.",
+      "good_compatibility": "따뜻한 밥, 나물 볶음",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 439,
+    "category": "유지방류",
+    "standard_name": "연유",
+    "dialects": {"중부": ["연유"], "동남": ["연유"], "서남": ["연유"], "제주": ["연유"]},
+    "daily_recommended_amount": "약 10g~15g (약 1큰술)",
+    "elderly_friendly_guide": "어르신, 우유를 농축하여 달콤하고 쫀득하게 만든 연유예요! 입맛이 없거나 기력이 떨어지셨을 때 팥빙수나 과일에 살짝 올려 고소하게 드실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["당뇨병", "비만"],
+      "caution_reason": "당분 함량이 매우 높아 혈당을 급격히 올릴 수 있으므로 당뇨가 있으신 어르신은 섭취를 자제하는 것이 좋습니다.",
+      "good_compatibility": "팥, 딸기, 과일류",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 440,
+    "category": "유지방류",
+    "standard_name": "분유 (탈지분유 / 전지분유)",
+    "dialects": {"중부": ["분유", "가루우유"], "동남": ["분유"], "서남": ["분유"], "제주": ["분유"]},
+    "daily_recommended_amount": "약 15g~20g (따뜻한 물에 타서 섭취)",
+    "elderly_friendly_guide": "할머니, 우유를 건조해 가루로 만든 영양 만점 분유예요! 죽이나 타락죽(우유죽)을 쑤실 때 가루를 타서 만드시면 수분 조절도 쉽고 소화하기 부드럽습니다.",
+    "disease_info": {
+      "caution_diseases": ["유당불내증"],
+      "caution_reason": "탈지분유는 지방이 적어 담백하나 유당 성분이 있으므로 찬물보다는 따뜻하게 끓여 죽 형태로 드시는 것이 안전합니다.",
+      "good_compatibility": "쌀죽, 단호박죽",
+      "bad_compatibility": "없음"
+    }
+  },
+
+
+
+  
+
+
+
+
 ]
 
 
