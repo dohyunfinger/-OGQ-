@@ -6457,7 +6457,1410 @@ food_data = [
         "good_compatibility": "마늘, 대추, 찹쌀",
         "bad_compatibility": "없음"
     }
-  }
+  },
+  {
+    "id": 452,
+    "category": "유지방류",
+    "standard_name": "산양유 (염소젖)",
+    "dialects": {"중부": ["산양유", "염소유"], "동남": ["산양유"], "서남": ["산양유"], "제주": ["산양유"]},
+    "daily_recommended_amount": "약 150ml~200ml",
+    "elderly_friendly_guide": "할머니, 우유보다 단백질 지방 입자가 작아 소화 흡수가 훨씬 빠른 산양유예요! 일반 우유를 드시면 속이 더부룩하신 어르신들께 아주 좋은 영양 음료입니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "소화 부담은 적으나 칼로리가 있으므로 미지근하게 데워 하루 1잔 적정량을 섭취하세요.",
+      "good_compatibility": "꿀, 오트밀",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 453,
+    "category": "유지방류",
+    "standard_name": "그릭 요거트",
+    "dialects": {"중부": ["그릭요거트"], "동남": ["그릭요거트"], "서남": ["그릭요거트"], "제주": ["그릭요거트"]},
+    "daily_recommended_amount": "약 70g~90g",
+    "elderly_friendly_guide": "할아버지, 수분을 짜내 단백질과 칼슘을 더욱 농축시킨 꾸덕한 그릭 요거트예요! 치아 부담 없이 숟가락으로 편하게 떠 드실 수 있고 근육 보충에 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["변비"],
+      "caution_reason": "농축되어 질감이 묵직하므로 물이나 과일과 함께 드셔야 목에 걸리지 않고 장 운동에 도움이 됩니다.",
+      "good_compatibility": "바나나, 견과류 가루, 꿀",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 454,
+    "category": "유지방류",
+    "standard_name": "마스카포네 치즈",
+    "dialects": {"중부": ["마스카포네"], "동남": ["마스카포네"], "서남": ["마스카포네"], "제주": ["마스카포네"]},
+    "daily_recommended_amount": "약 20g~30g",
+    "elderly_friendly_guide": "어르신, 신맛이 없고 순두부처럼 부드럽고 달콤고소한 마스카포네 치즈예요! 입안에서 부드럽게 녹아 씹는 힘이 전혀 없으신 어르신 간식으로 제격입니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증", "비만"],
+      "caution_reason": "유지방 함량이 높으므로 열량 관리가 필요한 어르신은 빵에 살짝 바르는 정도로 소량만 사용하세요.",
+      "good_compatibility": "식빵, 고구마",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 455,
+    "category": "유지방류",
+    "standard_name": "가공유 (바나나/딸기 우유)",
+    "dialects": {"중부": ["단우유", "바나나우유"], "동남": ["단우유"], "서남": ["단우유"], "제주": ["단우유"]},
+    "daily_recommended_amount": "약 100ml~150ml",
+    "elderly_friendly_guide": "할머니, 달콤한 맛이 더해져 입맛이 없을 때 기력을 살려주는 가공 우유예요! 식수가 부족할 때 부드럽게 당분과 수분을 함께 보충하기 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["당뇨병"],
+      "caution_reason": "설탕과 과당이 첨가되어 있어 혈당 수치를 빠르게 올릴 수 있으니 당뇨 어르신은 흰 우유로 대체하세요.",
+      "good_compatibility": "견과류",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 456,
+    "category": "유지방류",
+    "standard_name": "까망베르 치즈 / 브리 치즈",
+    "dialects": {"중부": ["까망베르", "브리치즈"], "동남": ["까망베르"], "서남": ["까망베르"], "제주": ["까망베르"]},
+    "daily_recommended_amount": "약 20g~30g",
+    "elderly_friendly_guide": "할아버지, 겉은 하얗고 속은 말랑말랑한 고급 연성 치즈예요! 푹 가열하면 크림처럼 부드러워져 어르신 스튜나 죽에 올려 고소하게 드시기 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압"],
+      "caution_reason": "숙성 과정에서 나트륨 성분이 포함되어 있으므로 염분을 체크하시고 적정량만 조절해 섭취하세요.",
+      "good_compatibility": "크래커, 사과, 견과류",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 457,
+    "category": "유지방류",
+    "standard_name": "프로바이오틱스 농축 요구르트 (마시는 유산균)",
+    "dialects": {"중부": ["농축 요구르트", "마시는 유산균"], "동남": ["요구르트"], "서남": ["요구르트"], "제주": ["요구르트"]},
+    "daily_recommended_amount": "1병 (약 130ml~150ml)",
+    "elderly_friendly_guide": "어르신, 장 건강을 돕는 이로운 유산균을 농축해 놓은 음료 타입 요구르트예요! 배변이 원활하지 않으실 때 아침에 한 잔씩 드시면 편안해집니다.",
+    "disease_info": {
+      "caution_diseases": ["당뇨병", "설사"],
+      "caution_reason": "당분이 가첨된 제품이 많으므로 저당(Low Sugar) 표기를 확인하시고, 설사 증상이 있을 때는 잠시 섭취를 중단하세요.",
+      "good_compatibility": "바나나, 사과",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 458,
+    "category": "유지방류",
+    "standard_name": "페타 치즈",
+    "dialects": {"중부": ["페타치즈"], "동남": ["페타치즈"], "서남": ["페타치즈"], "제주": ["페타치즈"]},
+    "daily_recommended_amount": "약 15g~20g",
+    "elderly_friendly_guide": "할머니, 양이나 염소의 젖으로 만들어 잘 으깨어지는 페타 치즈예요! 딱딱하지 않고 부드럽게 부서지므로 어르신 야채 샐러드에 으깨어 올리면 풍미가 좋아집니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압"],
+      "caution_reason": "소금물에 담가 숙성하므로 짠맛이 강할 수 있습니다. 물에 살짝 헹구거나 양을 적게 조절해 사용하세요.",
+      "good_compatibility": "토마토, 올리브유, 오이",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 459,
+    "category": "유지방류",
+    "standard_name": "무염 버터",
+    "dialects": {"중부": ["무염버터"], "동남": ["무염버터"], "서남": ["무염버터"], "제주": ["무염버터"]},
+    "daily_recommended_amount": "약 10g (약 1작은술)",
+    "elderly_friendly_guide": "할아버지, 소금을 넣지 않고 우유 지방만으로 고소하게 만든 무염 버터예요! 고혈압이나 부종 걱정 없이 요리할 때 고소한 맛을 내기에 아주 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "소금은 없으나 포화지방 성분이므로 혈관 수치를 고려하여 과도한 사용은 피하시는 것이 좋습니다.",
+      "good_compatibility": "감자, 단호박, 식빵",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 460,
+    "category": "유지방류",
+    "standard_name": "사워크림 (발효 생크림)",
+    "dialects": {"중부": ["사워크림"], "동남": ["사워크림"], "서남": ["사워크림"], "제주": ["사워크림"]},
+    "daily_recommended_amount": "약 15g~20g",
+    "elderly_friendly_guide": "어르신, 생크림을 유산균으로 발효시켜 새콤하고 고소한 맛이 나는 사워크림이에요! 찐 감자나 고구마 위에 한 숟가락 얹어 드시면 식감이 매우 촉촉해집니다.",
+    "disease_info": {
+      "caution_diseases": ["비만", "고지혈증"],
+      "caution_reason": "지방질이 많으므로 입맛을 돋우는 소스 용도로 소량만 곁들여 드시기를 추천합니다.",
+      "good_compatibility": "찐감자, 단호박, 스프",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 461,
+    "category": "유지방류",
+    "standard_name": "유당분해 우유 (락토프리 우유)",
+    "dialects": {"중부": ["락토프리 우유", "소화잘되는 우유"], "동남": ["소화잘되는 우유"], "서남": ["소화잘되는 우유"], "제주": ["소화잘되는 우유"]},
+    "daily_recommended_amount": "약 200ml (1컵)",
+    "elderly_friendly_guide": "할머니, 우유를 드시면 속이 부글거리거나 설사를 하시는 어르신들을 위해 유당을 미리 분해해 놓은 우유예요! 배탈 걱정 없이 편안하게 칼슘을 보충하실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "일반 우유의 영양은 그대로 유지하고 유당만 제거한 어르신 맞춤 안심 유제품입니다.",
+      "good_compatibility": "고구마, 계란, 견과류",
+      "bad_compatibility": "없음"
+    },
+  },
+  {
+    "id": 462,
+    "category": "유지방류",
+    "standard_name": "크림치즈",
+    "dialects": {"중부": ["크림치즈"], "동남": ["크림치즈"], "서남": ["크림치즈"], "제주": ["크림치즈"]},
+    "daily_recommended_amount": "약 20g~30g",
+    "elderly_friendly_guide": "할머니, 질감이 아주 부드럽고 고소하여 입안에서 스르륵 녹는 크림치즈예요! 씹기 불편하신 어르신도 부드러운 빵이나 단호박에 발라 편하게 드실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증", "비만"],
+      "caution_reason": "수분과 지방 비율이 높은 유제품이므로 심혈관 관리가 필요하신 경우 과식하지 않도록 소량만 드세요.",
+      "good_compatibility": "식빵, 크래커, 고구마",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 463,
+    "category": "유지방류",
+    "standard_name": "고다 치즈 (고다)",
+    "dialects": {"중부": ["고다치즈", "고다"], "동남": ["고다치즈"], "서남": ["고다치즈"], "제주": ["고다치즈"]},
+    "daily_recommended_amount": "약 20g",
+    "elderly_friendly_guide": "할아버지, 칼슘이 풍부하고 깊고 고소한 풍미가 특징인 고다 치즈예요! 얇게 슬라이스해 따뜻한 밥이나 죽 위에 얹으면 연하게 녹아 부드럽게 드실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압"],
+      "caution_reason": "숙성 치즈 특성상 나트륨이 일부 함유되어 있으므로 염분 섭취를 조절하셔야 하는 어르신은 섭취량을 적절히 유지하세요.",
+      "good_compatibility": "사과, 감자, 대파",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 464,
+    "category": "유지방류",
+    "standard_name": "에담 치즈",
+    "dialects": {"중부": ["에담치즈"], "동남": ["에담치즈"], "서남": ["에담치즈"], "제주": ["에담치즈"]},
+    "daily_recommended_amount": "약 20g",
+    "elderly_friendly_guide": "어르신, 지방 함량이 비교적 적어 깔끔하고 담백한 네덜란드 전통 에담 치즈예요! 딱딱하지 않게 살짝 데워 드시면 뼈 건강에 아주 이롭습니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "일반 치즈보다 지방 부담이 적어 어르신 단백질·칼슘 보충에 무난합니다.",
+      "good_compatibility": "포도, 크래커",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 465,
+    "category": "유지방류",
+    "standard_name": "에멘탈 치즈 (구멍 치즈)",
+    "dialects": {"중부": ["에멘탈", "구멍치즈"], "동남": ["에멘탈"], "서남": ["에멘탈"], "제주": ["에멘탈"]},
+    "daily_recommended_amount": "약 20g~30g",
+    "elderly_friendly_guide": "할머니, 치즈에 쏙쏙 구멍이 뚫린 스위스 대표 치즈예요! 칼슘과 비타민 B12가 가득하여 어르신의 골다공증 예방과 신경 건강에 도움을 줍니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압"],
+      "caution_reason": "짠맛이 다소 느껴질 수 있으니 저염 식단을 하시는 어르신은 요리 재료로 살짝 녹여 활용하세요.",
+      "good_compatibility": "브로콜리, 토마토",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 466,
+    "category": "유지방류",
+    "standard_name": "파마산 치즈 (파르미지아노 레지아노)",
+    "dialects": {"중부": ["파마산", "파마산 가루치즈"], "동남": ["파마산"], "서남": ["파마산"], "제주": ["파마산"]},
+    "daily_recommended_amount": "약 10g (약 1큰술 가루)",
+    "elderly_friendly_guide": "할아버지, 단백질과 칼슘이 최고도로 농축된 하드 치즈 가루예요! 어르신 스프나 야채 볶음 위에 솔솔 뿌려 드시면 입맛을 돋우고 영양을 더해줍니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압", "신장 질환"],
+      "caution_reason": "농축 가루 형태라 나트륨과 칼륨 함량이 높을 수 있으니 양념 조미료처럼 소량만 뿌려 드세요.",
+      "good_compatibility": "계란말이, 버섯볶음",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 467,
+    "category": "유지방류",
+    "standard_name": "하바티 치즈",
+    "dialects": {"중부": ["하바티"], "동남": ["하바티"], "서남": ["하바티"], "제주": ["하바티"]},
+    "daily_recommended_amount": "약 20g",
+    "elderly_friendly_guide": "어르신, 질감이 매우 말랑말랑하고 버터처럼 고소한 하바티 치즈예요! 치아가 약하신 어르신도 부담 없이 잘라 드실 수 있는 부드러운 치즈입니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "부드러운 만큼 지방 성분이 들어있으니 권장 섭취량을 지켜 드시는 것이 좋습니다.",
+      "good_compatibility": "식빵, 사과 슬라이스",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 468,
+    "category": "유지방류",
+    "standard_name": "스트링 치즈 (찢어먹는 치즈)",
+    "dialects": {"중부": ["스트링치즈", "찢어먹는 치즈"], "동남": ["찢어먹는 치즈"], "서남": ["찢어먹는 치즈"], "제주": ["스트링치즈"]},
+    "daily_recommended_amount": "1개 (약 20g)",
+    "elderly_friendly_guide": "할머니, 결대로 찢어지는 재미가 있고 짠맛이 적은 스트링 치즈예요! 그대로 드시기보다 전자레인지에 5~10초 살짝 데우면 말랑해져서 씹기 아주 편해집니다.",
+    "disease_info": {
+      "caution_diseases": ["소화불량"],
+      "caution_reason": "데우지 않고 차갑게 바로 드시면 쫄깃하여 씹거나 소화하기 어려울 수 있으니 꼭 살짝 데워 드세요.",
+      "good_compatibility": "고구마, 계란",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 469,
+    "category": "유지방류",
+    "standard_name": "클로티드 크림 (Clotted Cream)",
+    "dialects": {"중부": ["클로티드 크림"], "동남": ["클로티드 크림"], "서남": ["클로티드 크림"], "제주": ["클로티드 크림"]},
+    "daily_recommended_amount": "약 15g (1작은술)",
+    "elderly_friendly_guide": "할아버지, 우유를 은근하게 끓여 만든 영국식 농축 유크림이에요! 입안에서 부드럽게 감기며, 기력이 떨어지고 식사량이 적을 때 소량으로 고열량을 보충하기 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증", "당뇨병"],
+      "caution_reason": "유지방 함량이 55% 이상으로 매우 높으므로 심혈관 질환이 있으신 어르신은 자주 드시지 않도록 주의하세요.",
+      "good_compatibility": "부드러운 빵, 잼",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 470,
+    "category": "유지방류",
+    "standard_name": "가공버터 (식물성 혼합버터)",
+    "dialects": {"중부": ["가공버터", "마가린 유사버터"], "동남": ["가공버터"], "서남": ["가공버터"], "제주": ["가공버터"]},
+    "daily_recommended_amount": "약 10g",
+    "elderly_friendly_guide": "어르신, 천연버터에 식물성 유지 등을 섞어 부드럽고 가성비 좋게 만든 가공버터예요! 요리할 때 고소한 향을 더해 입맛을 끌어올려 줍니다.",
+    "disease_info": {
+      "caution_diseases": ["동맥경화", "고지혈증"],
+      "caution_reason": "제조 과정에 따라 트랜스지방이 미량 들어있을 수 있으므로 가급적 천연버터나 무염버터를 우선 선택하시길 권장합니다.",
+      "good_compatibility": "옥수수, 식빵",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 471,
+    "category": "유지방류",
+    "standard_name": "케피어 (티벳버섯 발효유)",
+    "dialects": {"중부": ["케피어", "티벳버섯"], "동남": ["케피어"], "서남": ["케피어"], "제주": ["케피어"]},
+    "daily_recommended_amount": "약 100ml~150ml",
+    "elderly_friendly_guide": "할머니, 유산균과 효모가 함께 들어있어 '장 건강의 왕'이라 불리는 발효유 케피어예요! 장내 유익균을 늘려 어르신의 소화와 배변을 탁월하게 돕습니다.",
+    "disease_info": {
+      "caution_diseases": ["위궤양", "위산과다"],
+      "caution_reason": "특유의 신맛과 산도가 있을 수 있으므로 빈속보다는 식후에 따뜻한 물과 함께 드시는 것이 위장에 안전합니다.",
+      "good_compatibility": "바나나, 꿀",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 472,
+    "category": "유지방류",
+    "standard_name": "아이란 (Ayran / 짭짤한 요구르트 음료)",
+    "dialects": {"중부": ["아이란"], "동남": ["아이란"], "서남": ["아이란"], "제주": ["아이란"]},
+    "daily_recommended_amount": "약 100ml",
+    "elderly_friendly_guide": "할아버지, 요구르트에 물과 약간의 소금을 섞어 만든 중동·중앙아시아식 발효 음료예요! 땀을 많이 흘리셨을 때 수분과 전해질을 동시에 보충하기 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압", "신부전"],
+      "caution_reason": "소금 성분이 포함된 가공 유제품이므로 나트륨 제한이 필요한 어르신은 섭취를 피하시고 일반 플레인 요구르트를 드세요.",
+      "good_compatibility": "오이, 민트",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 473,
+    "category": "유지방류",
+    "standard_name": "쿼크 치즈 (Quark Cheese)",
+    "dialects": {"중부": ["쿼크치즈"], "동남": ["쿼크치즈"], "서남": ["쿼크치즈"], "제주": ["쿼크치즈"]},
+    "daily_recommended_amount": "약 40g~50g",
+    "elderly_friendly_guide": "어르신, 커드 형태로 부드럽고 지방은 낮추고 단백질은 가득 채운 독일식 신선 치즈예요! 푸딩처럼 부드러워 어르신들의 영양 간식으로 훌륭합니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "지방 부담이 적어 어르신의 근손실 예방 및 단백질 보충식으로 매우 우수한 유제품입니다.",
+      "good_compatibility": "딸기, 블루베리, 꿀",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 474,
+    "category": "유지방류",
+    "standard_name": "프로볼로네 치즈",
+    "dialects": {"중부": ["프로볼로네"], "동남": ["프로볼로네"], "서남": ["프로볼로네"], "제주": ["프로볼로네"]},
+    "daily_recommended_amount": "약 20g",
+    "elderly_friendly_guide": "할머니, 이탈리아 전통 치즈로 열을 가하면 치즈가 부드럽게 죽 늘어나는 프로볼로네예요! 따뜻한 야채 찜이나 계란 요리에 가열해 녹여 드시면 고소합니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "숙성 정도에 따라 지방과 염분이 다를 수 있으니 가공량이 적은 신선한 종류로 선택해 드세요.",
+      "good_compatibility": "가지, 피망, 계란",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 475,
+    "category": "유지방류",
+    "standard_name": "초유 (초유 분말/음료)",
+    "dialects": {"중부": ["초유"], "동남": ["초유"], "서남": ["초유"], "제주": ["초유"]},
+    "daily_recommended_amount": "약 2g~5g (분말 기준)",
+    "elderly_friendly_guide": "할아버지, 젖소가 분만 후 며칠간 분비하는 젖으로 면역글로불린과 성장인자가 집약된 초유예요! 기력이 많이 떨어진 어르신의 면역력 강화에 큰 도움 됩니다.",
+    "disease_info": {
+      "caution_diseases": ["우유 알레르기"],
+      "caution_reason": "단백질 농도가 매우 높으므로 유단백 알레르기가 있으신 어르신은 섭취 전 전문의 상담이 필요합니다.",
+      "good_compatibility": "미지근한 물, 미음",
+      "bad_compatibility": "뜨거운 물 (면역 성분 파괴)"
+    }
+  },
+  {
+    "id": 476,
+    "category": "유지방류",
+    "standard_name": "아이스크림 (유지방 아이스크림)",
+    "dialects": {"중부": ["아이스크림", "하드"], "동남": ["아이스크림", "아시케리"], "서남": ["아이스크림"], "제주": ["아이스크림"]},
+    "daily_recommended_amount": "약 50g~70g (소컵 1/2)",
+    "elderly_friendly_guide": "어르신, 입맛이 없거나 입안이 바짝 마르실 때 기분을 좋게 해주고 열량을 보충해 주는 시원한 유지방 아이스크림이에요! 부드러워 삼키기 쉽습니다.",
+    "disease_info": {
+      "caution_diseases": ["당뇨병", "비만", "배탈"],
+      "caution_reason": "당분과 포화지방이 매우 높으므로 당뇨 어르신은 피하시고, 너무 차가우면 위장을 자극할 수 있으니 조금씩 천천히 녹여 드세요.",
+      "good_compatibility": "바나나, 오트밀",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 477,
+    "category": "유지방류",
+    "standard_name": "부라타 치즈 (Burrata)",
+    "dialects": {"중부": ["부라타치즈", "부라타"], "동남": ["부라타"], "서남": ["부라타"], "제주": ["부라타"]},
+    "daily_recommended_amount": "약 30g~50g",
+    "elderly_friendly_guide": "할머니, 겉은 쫄깃하고 속에는 고소한 크림이 찰랑하게 들어있는 부라타 치즈예요! 씹을 필요 없이 부드러워 어르신들 입맛 돋우기에 아주 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "속에 든 크림 때문에 지방 비율이 다소 높으므로 수치 관리가 필요한 어르신은 드시는 양을 조절하세요.",
+      "good_compatibility": "토마토, 올리브유, 바질",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 478,
+    "category": "유지방류",
+    "standard_name": "리코타 치즈 (Ricotta)",
+    "dialects": {"중부": ["리코타치즈", "리코타"], "동남": ["리코타"], "서남": ["리코타"], "제주": ["리코타"]},
+    "daily_recommended_amount": "약 40g~50g",
+    "elderly_friendly_guide": "할아버지, 순두부처럼 포슬포슬하고 담백한 리코타 치즈예요! 지방은 적고 단백질이 풍부하여 어르신 샐러드나 빵에 얹어 드시기 부드럽고 안성맞춤입니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "염분과 지방 함량이 매우 낮아 저염식·저지방식이 필요한 어르신에게 우수한 단백질 공급원입니다.",
+      "good_compatibility": "단호박, 샐러드 채소, 꿀",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 479,
+    "category": "유지방류",
+    "standard_name": "고르곤졸라 치즈 (블루 치즈)",
+    "dialects": {"중부": ["고르곤졸라", "블루치즈"], "동남": ["고르곤졸라"], "서남": ["고르곤졸라"], "제주": ["고르곤졸라"]},
+    "daily_recommended_amount": "약 15g~20g",
+    "elderly_friendly_guide": "어르신, 푸른곰팡이로 발효시켜 특유의 향과 깊은 감칠맛을 내는 이탈리아 치즈예요! 꿀이나 따뜻한 죽에 살짝 곁들이시면 풍미가 살아납니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압", "위궤양"],
+      "caution_reason": "발효 자극성과 염분이 센 편이므로 자극적인 음식을 피해야 하는 어르신은 소량만 드셔야 합니다.",
+      "good_compatibility": "꿀, 꿀물, 샌드위치",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 480,
+    "category": "유지방류",
+    "standard_name": "그뤼에르 치즈 (Gruyère)",
+    "dialects": {"중부": ["그뤼에르"], "동남": ["그뤼에르"], "서남": ["그뤼에르"], "제주": ["그뤼에르"]},
+    "daily_recommended_amount": "약 20g",
+    "elderly_friendly_guide": "할머니, 스위스 수프 요리에 꼭 들어가는 고소하고 묵직한 치즈예요! 따뜻한 국물이나 스프에 녹여 드시면 속을 따뜻하고 든든하게 해줍니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압"],
+      "caution_reason": "숙성 과정을 거쳐 나트륨이 포함되어 있으므로 저염 식단을 유지하시는 어르신은 양을 적절히 조정하세요.",
+      "good_compatibility": "양파스프, 감자, 감자죽",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 481,
+    "category": "유지방류",
+    "standard_name": "훈제 치즈 (스모크 치즈)",
+    "dialects": {"중부": ["훈제치즈", "스모크치즈"], "동남": ["스모크치즈"], "서남": ["훈제치즈"], "제주": ["스모크치즈"]},
+    "daily_recommended_amount": "약 20g",
+    "elderly_friendly_guide": "할아버지, 참나무 향을 그윽하게 입혀 짭조름하고 고소한 훈제 치즈예요! 입맛이 없으실 때 부드럽게 잘라 드시면 참 고소합니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압", "신장 질환"],
+      "caution_reason": "훈제 가공 특성상 염분이 높을 수 있으니 나트륨 조절이 필요한 어르신은 하루 1~2조각 내외로 제한하세요.",
+      "good_compatibility": "사과, 크래커",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 482,
+    "category": "유지방류",
+    "standard_name": "할루미 치즈 (구워먹는 치즈)",
+    "dialects": {"중부": ["구워먹는 치즈", "할루미"], "동남": ["구워먹는 치즈"], "서남": ["구워먹는 치즈"], "제주": ["할루미"]},
+    "daily_recommended_amount": "약 30g",
+    "elderly_friendly_guide": "어르신, 팬에 노릇하게 구워도 녹아내리지 않고 고소한 식감을 자랑하는 치즈예요! 살짝 구워 말랑할 때 드시면 훌륭한 단백질 간식이 됩니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압"],
+      "caution_reason": "보존성이 높아 짠맛이 강할 수 있으므로 구우기 전 따뜻한 물에 살짝 담가 소금기를 빼고 조리하시는 것이 좋습니다.",
+      "good_compatibility": "가지, 애호박, 토마토",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 483,
+    "category": "유지방류",
+    "standard_name": "몬테레이 잭 치즈 (Monterey Jack)",
+    "dialects": {"중부": ["몬테레이잭"], "동남": ["몬테레이잭"], "서남": ["몬테레이잭"], "제주": ["몬테레이잭"]},
+    "daily_recommended_amount": "약 20g~30g",
+    "elderly_friendly_guide": "할머니, 짠맛이 적고 질감이 부드러워 미국에서 인기가 많은 치즈예요! 따뜻하게 데우면 잘 녹아 어르신 찜 요리나 계란말이에 넣기 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "지방 성분이 고루 함유되어 있으므로 심혈관 질환이 계신 분은 정해진 양만 섭취하시길 권장합니다.",
+      "good_compatibility": "계란, 브로콜리",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 484,
+    "category": "유지방류",
+    "standard_name": "페코리노 로마노 (양유 하드치즈)",
+    "dialects": {"중부": ["페코리노"], "동남": ["페코리노"], "서남": ["페코리노"], "제주": ["페코리노"]},
+    "daily_recommended_amount": "약 10g (가루 형태)",
+    "elderly_friendly_guide": "할아버지, 양젖으로 만든 이탈리아 전통 치즈로 칼슘이 매우 높아요! 단단하므로 가루로 갈아 소금 대신 요리에 살짝 뿌려 드시면 깊은 맛이 납니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압", "신장 질환"],
+      "caution_reason": "짠맛이 강한 전통 치즈이므로 조미료처럼 아주 작은 양만 요리 간 맞춤용으로 활용하세요.",
+      "good_compatibility": "감자수프, 올리브유 파스타",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 485,
+    "category": "유지방류",
+    "standard_name": "라브네 (Labneh / 요거트 치즈)",
+    "dialects": {"중부": ["라브네"], "동남": ["라브네"], "서남": ["라브네"], "제주": ["라브네"]},
+    "daily_recommended_amount": "약 30g~40g",
+    "elderly_friendly_guide": "어르신, 플레인 요구르트의 수분을 쫙 빼서 크림처럼 연하게 만든 중동식 신선 치즈예요! 유산균이 살아있어 소화와 장 운동에 탁월합니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "유당이 상당수 제거되어 소화 부담이 적고 장 건강 보충에 안정적입니다.",
+      "good_compatibility": "올리브유, 통밀빵, 오이",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 486,
+    "category": "유지방류",
+    "standard_name": "유청 단백질 (Whey Protein / 단백질 파우더)",
+    "dialects": {"중부": ["유청단백질", "프로틴"], "동남": ["유청단백질"], "서남": ["유청단백질"], "제주": ["유청단백질"]},
+    "daily_recommended_amount": "약 15g~20g (1회)",
+    "elderly_friendly_guide": "할머니, 우유에서 순수 단백질만 추출한 가루예요! 근육이 줄어드는 어르신들이 미지근한 물이나 죽에 타 드시면 근력 유지에 큰 도움이 됩니다.",
+    "disease_info": {
+      "caution_diseases": ["신장 질환 (신부전)"],
+      "caution_reason": "단백질 농도가 높으므로 신장 기능이 저하된 어르신은 반드시 담당 의사 상담 후 섭취량을 정해야 합니다.",
+      "good_compatibility": "두유, 미음, 오트밀",
+      "bad_compatibility": "뜨거운 물 (단백질 변성 뭉침)"
+    }
+  },
+  {
+    "id": 487,
+    "category": "유지방류",
+    "standard_name": "젤라또 (Gelato / 이탈리아식 디저트)",
+    "dialects": {"중부": ["젤라또"], "동남": ["젤라또"], "서남": ["젤라또"], "제주": ["젤라또"]},
+    "daily_recommended_amount": "약 50g~60g",
+    "elderly_friendly_guide": "할아버지, 일반 아이스크림보다 공기 함량이 적고 공정이 밀도 높아 쫀득하고 부드러운 디저트예요! 입안이 건조할 때 열량을 챙기기 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["당뇨병", "비만"],
+      "caution_reason": "당분이 들어있으므로 당뇨가 있으신 어르신은 섭취를 삼가시거나 소량만 맛보시는 것이 안전합니다.",
+      "good_compatibility": "부드러운 와플, 쌀죽",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 488,
+    "category": "유지방류",
+    "standard_name": "라씨 (Lassi / 인도식 발효유 음료)",
+    "dialects": {"중부": ["라씨"], "동남": ["라씨"], "서남": ["라씨"], "제주": ["라씨"]},
+    "daily_recommended_amount": "약 100ml",
+    "elderly_friendly_guide": "어르신, 요구르트에 물과 과일 등을 섞어 묽게 만든 전통 발효 음료예요! 목넘김이 아주 편해 기력이 없을 때 유산균과 수분을 동시에 챙길 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["당뇨병 (설탕 첨가 시)"],
+      "caution_reason": "시중의 시럽이나 설탕이 든 라씨는 혈당을 올릴 수 있으므로 당이 첨가되지 않은 플레인 라씨를 선택하세요.",
+      "good_compatibility": "망고, 바나나",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 489,
+    "category": "유지방류",
+    "standard_name": "저지유 (Jersey Milk / 고지방 우유)",
+    "dialects": {"중부": ["저지유", "저지우유"], "동남": ["저지유"], "서남": ["저지유"], "제주": ["저지유"]},
+    "daily_recommended_amount": "약 100ml~150ml",
+    "elderly_friendly_guide": "할머니, 저지소에서 짜낸 우유로 일반 우유보다 단백질, 칼슘, 지방이 월등히 높은 프리미엄 우유예요! 식사량이 적은 어르신 고영양 보충에 이롭습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "유지방 함량이 높으므로 심혈관 질환이 계신 분은 저지방 우유를 우선 권장합니다.",
+      "good_compatibility": "감자, 고구마",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 490,
+    "category": "유지방류",
+    "standard_name": "뮌스터 치즈 (Muenster Cheese)",
+    "dialects": {"중부": ["뮌스터", "문스터"], "동남": ["뮌스터"], "서남": ["뮌스터"], "제주": ["뮌스터"]},
+    "daily_recommended_amount": "약 20g",
+    "elderly_friendly_guide": "할아버지, 질감이 매끄럽고 짠맛이 덜하며 고소한 미국식 신선 치즈예요! 치아가 불편하셔도 부드럽게 씹을 수 있어 샌드위치나 죽에 연하게 녹여드리기 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "부드럽고 순하지만 지방이 들어있으므로 적량 섭취를 유지해 주시는 것이 좋습니다.",
+      "good_compatibility": "식빵, 계란지단",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 491,
+    "category": "유지방류",
+    "standard_name": "체칠 치즈 (Chechil / 실 치즈)",
+    "dialects": {"중부": ["체칠치즈", "실치즈"], "동남": ["실치즈"], "서남": ["실치즈"], "제주": ["체칠치즈"]},
+    "daily_recommended_amount": "약 15g~20g",
+    "elderly_friendly_guide": "어르신, 실처럼 가늘게 매듭지어 만든 훈제 실치즈예요! 따뜻한 물에 살짝 데우거나 미지근하게 만들어 결대로 가늘게 찢어 드시면 부담 없는 영양 간식이 됩니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압", "소화불량"],
+      "caution_reason": "염분이 다소 높고 데우지 않고 차갑게 드시면 쫄깃하여 씹기 어려울 수 있으니 반드시 온기를 가해 부드럽게 드세요.",
+      "good_compatibility": "따뜻한 차, 크래커",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 492,
+    "category": "유지방류",
+    "standard_name": "콜비 치즈 (Colby Cheese)",
+    "dialects": {"중부": ["콜비치즈"], "동남": ["콜비치즈"], "서남": ["콜비치즈"], "제주": ["콜비치즈"]},
+    "daily_recommended_amount": "약 20g~30g",
+    "elderly_friendly_guide": "할머니, 체다 치즈보다 수분이 많고 수수하며 부드러운 미국식 치즈예요! 짠맛이 덜해 어르신들이 부담 없이 간식으로 잘라 드시기 편합니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "부드럽고 신선하지만 지방이 들어있으므로 혈관 건강 유지를 위해 권장량만 드세요.",
+      "good_compatibility": "사과, 감자, 식빵",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 493,
+    "category": "유지방류",
+    "standard_name": "퐁듀 치즈 (Fontina / 퐁듀용 치즈)",
+    "dialects": {"중부": ["퐁듀치즈", "폰티나"], "동남": ["퐁듀치즈"], "서남": ["퐁듀치즈"], "제주": ["퐁듀치즈"]},
+    "daily_recommended_amount": "약 25g~35g",
+    "elderly_friendly_guide": "할아버지, 열을 가하면 부드럽고 차진 크림처럼 사르르 녹아내리는 치즈예요! 푹 삶은 감자나 채소를 찍어 드시면 치아에 무리 없이 풍부한 칼슘을 섭취할 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압"],
+      "caution_reason": "가열 시 풍미가 강해지며 나트륨이 일부 포함되어 있으므로 저염 식단 시 양을 조절하세요.",
+      "good_compatibility": "삶은 감자, 당근, 브로콜리",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 494,
+    "category": "유지방류",
+    "standard_name": "만체고 치즈 (Manchego / 양유 숙성치즈)",
+    "dialects": {"중부": ["만체고"], "동남": ["만체고"], "서남": ["만체고"], "제주": ["만체고"]},
+    "daily_recommended_amount": "약 15g~20g",
+    "elderly_friendly_guide": "어르신, 스페인 양젖으로 만들어 고소하고 자극이 적은 숙성 치즈예요! 얇게 슬라이스해서 드시면 연하게 씹혀 어르신들 입맛을 돋워줍니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압"],
+      "caution_reason": "숙성 치즈 특성상 짠맛이 남아있을 수 있으므로 얇게 한두 조각만 곁들여 드시는 것이 좋습니다.",
+      "good_compatibility": "무화과, 꿀, 부드러운 빵",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 495,
+    "category": "유지방류",
+    "standard_name": "탈레지오 치즈 (Taleggio)",
+    "dialects": {"중부": ["탈레지오"], "동남": ["탈레지오"], "서남": ["탈레지오"], "제주": ["탈레지오"]},
+    "daily_recommended_amount": "약 20g",
+    "elderly_friendly_guide": "할머니, 겉은 약간 바삭하지만 속은 버터처럼 스르륵 녹는 부드러운 이탈리아 치즈예요! 따뜻한 죽이나 밥 위에 살짝 올리면 크림처럼 녹아 풍미가 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증"],
+      "caution_reason": "지방 농도가 높으므로 심혈관 질환이 있으신 어르신은 적정량을 지켜서 드세요.",
+      "good_compatibility": "쌀죽, 호박죽",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 496,
+    "category": "유지방류",
+    "standard_name": "탈라가니 치즈 (Talagani / 구이용 믹스치즈)",
+    "dialects": {"중부": ["탈라가니"], "동남": ["탈라가니"], "서남": ["탈라가니"], "제주": ["탈라가니"]},
+    "daily_recommended_amount": "약 25g~30g",
+    "elderly_friendly_guide": "할아버지, 양젖과 염소젖을 섞어 부드럽게 구워 먹을 수 있도록 만든 그리스 치즈예요! 팬에 살짝 구우면 겉은 고소하고 속은 말랑말랑해집니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압"],
+      "caution_reason": "약간의 염분이 있으니 굽기 전에 물로 살짝 헹구거나 야채와 함께 드시면 나트륨 섭취를 줄일 수 있습니다.",
+      "good_compatibility": "토마토, 애호박",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 497,
+    "category": "유지방류",
+    "standard_name": "프로바이오틱스 치즈 (유산균 첨가 치즈)",
+    "dialects": {"중부": ["유산균 치즈", "프로바이오틱스 치즈"], "동남": ["유산균치즈"], "서남": ["유산균치즈"], "제주": ["유산균치즈"]},
+    "daily_recommended_amount": "약 20g~30g",
+    "elderly_friendly_guide": "어르신, 소화를 돕는 장 유익균을 강화하여 만든 건강 치즈예요! 배변이 원활하지 않거나 장 기능이 약해진 어르신의 칼슘과 장 건강 보충에 제격입니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "장 건강과 뼈 건강을 동시에 챙길 수 있는 어르신 맞춤 치즈 제품입니다.",
+      "good_compatibility": "바나나, 고구마",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 498,
+    "category": "유지방류",
+    "standard_name": "카망베르 드 노르망디 (생유 발효 치즈)",
+    "dialects": {"중부": ["생유카망베르"], "동남": ["생유카망베르"], "서남": ["생유카망베르"], "제주": ["생유카망베르"]},
+    "daily_recommended_amount": "약 20g",
+    "elderly_friendly_guide": "할머니, 살균하지 않은 신선한 원유로 깊게 발효시켜 깊고 진한 맛을 내는 전통 연성 치즈예요! 속살이 아주 부드러워 입안에서 사르르 녹아내립니다.",
+    "disease_info": {
+      "caution_diseases": ["면역 저하 상태"],
+      "caution_reason": "비살균 원유 치즈는 면역력이 극도로 약해진 어르신에게 배탈을 유발할 수 있으므로 살짝 가열해 드시는 것을 권장합니다.",
+      "good_compatibility": "크래커, 사과",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 499,
+    "category": "유지방류",
+    "standard_name": "유청 음료 (Whey Drink)",
+    "dialects": {"중부": ["유청음료"], "동남": ["유청음료"], "서남": ["유청음료"], "제주": ["유청음료"]},
+    "daily_recommended_amount": "약 100ml~150ml",
+    "elderly_friendly_guide": "할아버지, 치즈를 만드는 과정에서 나오는 영양 유청을 깔끔하게 음료로 만든 제품이에요! 지방이 없고 목넘김이 물처럼 부드러워 수분과 단백질을 편하게 보충해 줍니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "지방 부담 없이 단백질과 수분을 섭취할 수 있어 어르신 소화 건강에 안정적입니다.",
+      "good_compatibility": "꿀, 과일즙",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 500,
+    "category": "유지방류",
+    "standard_name": "스메타나 크림 (Smetana / 동유럽 발효크림)",
+    "dialects": {"중부": ["스메타나"], "동남": ["스메타나"], "서남": ["스메타나"], "제주": ["스메타나"]},
+    "daily_recommended_amount": "약 15g~20g",
+    "elderly_friendly_guide": "어르신, 사워크림과 비슷하지만 훨씬 고소하고 자극적인 신맛이 적은 동유럽식 발효 크림이에요! 따뜻한 스프나 죽에 한 숟가락 넣으면 요리가 부드러워집니다.",
+    "disease_info": {
+      "caution_diseases": ["고지혈증", "비만"],
+      "caution_reason": "유지방 성분이 들어있으므로 입맛을 돋우는 소스 용도로 소량만 곁들여 활용하세요.",
+      "good_compatibility": "감자스프, 야채죽",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 501,
+    "category": "유지방류",
+    "standard_name": "프로마주 블랑 (Fromage Blanc / 신선 치즈)",
+    "dialects": {"중부": ["프로마주블랑"], "동남": ["프로마주블랑"], "서남": ["프로마주블랑"], "제주": ["프로마주블랑"]},
+    "daily_recommended_amount": "약 40g~50g",
+    "elderly_friendly_guide": "할머니, 플레인 요거트처럼 촉촉하고 수분이 많은 프랑스식 신선 치즈예요! 지방은 매우 낮고 숟가락으로 편하게 떠 드실 수 있어 어르신 영양 간식으로 훌륭합니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "저지방 고단백 유제품으로 어르신 혈관이나 소화에 부담을 주지 않습니다.",
+      "good_compatibility": "딸기, 블루베리, 꿀",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 502,
+    "category": "유지방류",
+    "standard_name": "카세인 단백질 (Casein Protein / 완소 단백질)",
+    "dialects": {"중부": ["카세인"], "동남": ["카세인"], "서남": ["카세인"], "제주": ["카세인"]},
+    "daily_recommended_amount": "약 10g~15g",
+    "elderly_friendly_guide": "할아버지, 우유 단백질 중 소화 흡수가 천천히 진행되는 단백질 가루예요! 취침 전 미지근한 물이나 두유에 타 드시면 밤새 근육 손실을 막아주는 데 매우 효과적입니다.",
+    "disease_info": {
+      "caution_diseases": ["신장 질환"],
+      "caution_reason": "농축 단백질이므로 신장 기능이 떨어진 어르신은 의사 상담 후 소량만 섭취하세요.",
+      "good_compatibility": "두유, 우유, 미음",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 503,
+    "category": "유지방류",
+    "standard_name": "콤테 치즈 (Comté Cheese)",
+    "dialects": {"중부": ["콤테치즈", "콩테"], "동남": ["콩테"], "서남": ["콩테"], "제주": ["콩테"]},
+    "daily_recommended_amount": "약 20g",
+    "elderly_friendly_guide": "어르신, 고소한 땅콩 향과 은은한 단맛이 나는 프랑스 고급 치즈예요! 얇게 썰어 드시거나 샌드위치에 넣으면 치아 부담 없이 고소하게 드실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["고혈압"],
+      "caution_reason": "장기 숙성 치즈이므로 염분이 포함되어 있습니다. 하루 추천 섭취량을 과도하게 넘지 않도록 해주세요.",
+      "good_compatibility": "사과, 감자, 대파",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 504,
+    "category": "유지방류",
+    "standard_name": "저염 체다 치즈 (어르신/아동용 저염치즈)",
+    "dialects": {"중부": ["저염치즈", "저염체다"], "동남": ["저염치즈"], "서남": ["저염치즈"], "제주": ["저염치즈"]},
+    "daily_recommended_amount": "1~2장 (약 18g~36g)",
+    "elderly_friendly_guide": "할머니, 일반 슬라이스 치즈에서 소금기를 쏙 줄여 안심하고 드실 수 있는 저염 치즈예요! 고혈압이 있으신 어르신도 칼슘을 마음 편히 챙기실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "나트륨 함량을 낮추어 고혈압 및 신장 질환 어르신에게 이상적인 치즈입니다.",
+      "good_compatibility": "계란지단, 식빵",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 505,
+    "category": "유지방류",
+    "standard_name": "프로즌 요거트 (Frozen Yogurt)",
+    "dialects": {"중부": ["프로즌요거트", "요거트아이스크림"], "동남": ["요거트아이스크림"], "서남": ["요거트아이스크림"], "제주": ["프로즌요거트"]},
+    "daily_recommended_amount": "약 50g~60g",
+    "elderly_friendly_guide": "할아버지, 요거트를 시원하게 얼려 만든 디저트예요! 아이스크림보다 지방이 적고 상큼해서 입맛이 없거나 입안이 텁텁하실 때 기분을 시원하게 살려줍니다.",
+    "disease_info": {
+      "caution_diseases": ["당뇨병", "배탈"],
+      "caution_reason": "당분이 가첨되었을 수 있으니 당뇨 어르신은 저당 제품을 선택하시고 차가우므로 천천히 드시는 것이 좋습니다.",
+      "good_compatibility": "바나나, 견과류 가루",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 506,
+    "category": "유지방류",
+    "standard_name": "탈지분유 (Low-Fat Milk Powder)",
+    "dialects": {"중부": ["탈지분유"], "동남": ["탈지분유"], "서남": ["탈지분유"], "제주": ["탈지분유"]},
+    "daily_recommended_amount": "약 15g~20g",
+    "elderly_friendly_guide": "어르신, 우유에서 지방을 쏙 빼고 단백질과 칼슘만 건조하여 만든 탈지분유예요! 지방 걱정 없이 따뜻한 물에 타 드시거나 죽, 수프에 가루를 섞어 드시면 영양이 아주 풍부해집니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "지방 및 열량 부담이 전혀 없어 고지혈증이나 체중 관리가 필요한 어르신에게 훌륭한 영양 공급원입니다.",
+      "good_compatibility": "미음, 따뜻한 물, 오트밀",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 507,
+    "category": "균류",
+    "standard_name": "표고버섯",
+    "dialects": {"중부": ["표고버섯", "표고"], "동남": ["표고버섯", "표고"], "서남": ["표고버섯"], "제주": ["표고버섯"]},
+    "daily_recommended_amount": "약 30g~50g (약 2~3개)",
+    "elderly_friendly_guide": "할머니, 면역력을 올려주고 혈관 건강을 돕는 표고버섯이에요! 줄기는 다소 질길 수 있으니 갓 부위를 얇게 슬라이스하거나 푹 찌거나 국물 요리에 부드럽게 끓여 드시면 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["통풍"],
+      "caution_reason": "퓨린 함량이 다소 높으므로 통풍 발작이 자주 일어나는 어르신은 섭취량을 조절하시거나 국물 위주로 활용하세요.",
+      "good_compatibility": "돼지고기, 참기름",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 508,
+    "category": "균류",
+    "standard_name": "느타리버섯",
+    "dialects": {"중부": ["느타리버섯", "느타리"], "동남": ["느타리버섯"], "서남": ["느타리버섯"], "제주": ["느타리버섯"]},
+    "daily_recommended_amount": "약 50g~70g",
+    "elderly_friendly_guide": "할아버지, 쫄깃하면서도 수분이 풍부해 어르신들이 씹기 부담 없는 느타리버섯이에요! 데친 후 결대로 가늘게 찢어 들기름에 볶거나 나물로 무쳐 드시면 고소합니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "식이섬유가 풍부하여 장 운동 촉진과 혈당 관리에 우수한 균류 식품입니다.",
+      "good_compatibility": "소고기, 들기름",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 509,
+    "category": "균류",
+    "standard_name": "팽이버섯",
+    "dialects": {"중부": ["팽이버섯", "팽이"], "동남": ["팽이버섯", "팽이"], "서남": ["팽이버섯"], "제주": ["팽이버섯"]},
+    "daily_recommended_amount": "약 40g~50g (약 1/2봉지)",
+    "elderly_friendly_guide": "어르신, 가격도 착하고 식이섬유가 듬뿍 들어있는 팽이버섯이에요! 섬유질이 길어 목에 걸릴 수 있으니 어르신용으로는 1~2cm 길이로 짧게 잘라 요리해 드시는 것이 안전합니다.",
+    "disease_info": {
+      "caution_diseases": ["신장 질환 (고칼륨혈증)"],
+      "caution_reason": "칼륨 함량이 높으므로 신장 기능이 저하된 어르신은 살짝 데쳐 물을 버린 후 조리하세요.",
+      "good_compatibility": "계란, 된장찌개",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 510,
+    "category": "균류",
+    "standard_name": "새송이버섯",
+    "dialects": {"중부": ["새송이버섯", "큰송이버섯"], "동남": ["새송이버섯"], "서남": ["새송이버섯"], "제주": ["새송이버섯"]},
+    "daily_recommended_amount": "약 50g (약 1개)",
+    "elderly_friendly_guide": "할머니, 질감이 부드러워 관자나 고기처럼 씹히는 새송이버섯이에요! 얇게 슬라이스해 구우시거나 조림으로 조리하시면 치아가 약하셔도 맛있게 드실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "비타민 C와 C질이 풍부하여 어르신 기력 보충에 좋습니다.",
+      "good_compatibility": "굴소스, 쇠고기",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 511,
+    "category": "균류",
+    "standard_name": "양송이버섯",
+    "dialects": {"중부": ["양송이버섯", "양송이"], "동남": ["양송이버섯"], "서남": ["양송이버섯"], "제주": ["양송이버섯"]},
+    "daily_recommended_amount": "약 40g~60g (약 3~4개)",
+    "elderly_friendly_guide": "할아버지, 입안에서 부드럽게 넘어가고 단백질 함량이 높은 양송이버섯이에요! 스프나 구이로 드시면 속이 아주 편안해집니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "소화가 매우 잘 되고 버섯 중 단백질 함유량이 높아 어르신 단백질 보충에 무난합니다.",
+      "good_compatibility": "버터, 우유, 브로콜리",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 512,
+    "category": "균류",
+    "standard_name": "목이버섯 (흑목이버섯)",
+    "dialects": {"중부": ["목이버섯", "나무귀버섯"], "동남": ["목이버섯"], "서남": ["목이버섯"], "제주": ["목이버섯"]},
+    "daily_recommended_amount": "약 20g~30g (불린 상태 기준)",
+    "elderly_friendly_guide": "어르신, 미역처럼 야들야들하고 칼슘과 비타민 D가 풍부한 목이버섯이에요! 물에 충분히 불린 후 부드럽게 데쳐 잡채나 볶음 요리에 넣어 드시면 뼈 건강에 아주 이롭습니다.",
+    "disease_info": {
+      "caution_diseases": ["소화불량"],
+      "caution_reason": "불리지 않거나 큼직하게 드시면 목넘김이 어렵거나 소화가 뎌딜 수 있으니 꼭 충분히 불린 후 잘게 잘라 드세요.",
+      "good_compatibility": "오이, 잡채, 계란",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 513,
+    "category": "균류",
+    "standard_name": "백목이버섯 (은이버섯)",
+    "dialects": {"중부": ["백목이버섯", "은이버섯"], "동남": ["백목이버섯"], "서남": ["백목이버섯"], "제주": ["백목이버섯"]},
+    "daily_recommended_amount": "약 20g~30g (불린 상태 기준)",
+    "elderly_friendly_guide": "할머니, 하얗고 몽글몽글하여 식물성 콜라겐이 풍부한 은이버섯이에요! 푹 삶으면 푸딩처럼 부드러워져 어르신 피부와 관절 건강 보충식으로 제격입니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "식이섬유와 보습 성분이 풍부하여 어르신 기관지 건조 및 변비 예방에 훌륭합니다.",
+      "good_compatibility": "대추, 꿀, 삼계탕",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 514,
+    "category": "균류",
+    "standard_name": "송이버섯 (자연산 송이)",
+    "dialects": {"중부": ["송이버섯", "송이"], "동남": ["송이버섯", "송구"], "서남": ["송이버섯"], "제주": ["송이버섯"]},
+    "daily_recommended_amount": "약 30g~50g",
+    "elderly_friendly_guide": "할아버지, 은은한 소나무 향이 일품이고 기력 회복에 뛰어난 자연산 송이버섯이에요! 결대로 결 결 부드럽게 찢어 살짝 익혀 드시면 약이 됩니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "성질이 평이하고 영양이 뛰어나 기력이 떨어진 어르신의 보양식으로 좋습니다.",
+      "good_compatibility": "소고기, 전복",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 515,
+    "category": "균류",
+    "standard_name": "능이버섯",
+    "dialects": {"중부": ["능이버섯", "능이"], "동남": ["능이버섯"], "서남": ["능이버섯"], "제주": ["능이버섯"]},
+    "daily_recommended_amount": "약 30g~40g",
+    "elderly_friendly_guide": "어르신, 버섯 중의 으뜸으로 불리며 소화를 돕고 혈액순환에 효능이 탁월한 능이버섯이에요! 백숙이나 국물에 푹 우려내어 드시면 소화가 쑥 내려갑니다.",
+    "disease_info": {
+      "caution_diseases": ["생식 주의 (날것 섭취 금지)"],
+      "caution_reason": "생으로 드시면 미량의 독성으로 배탈이 날 수 있으므로 반드시 뜨거운 열에 푹 익혀 드셔야 합니다.",
+      "good_compatibility": "닭고기, 오리고기",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 516,
+    "category": "균류",
+    "standard_name": "만닥가닥버섯 (만가닥버섯 / 만가닥)",
+    "dialects": {"중부": ["만가닥버섯", "만닥가닥"], "동남": ["만가닥버섯"], "서남": ["만가닥버섯"], "제주": ["만가닥버섯"]},
+    "daily_recommended_amount": "약 50g",
+    "elderly_friendly_guide": "할머니, 씹는 맛이 쫄깃하면서도 쓴맛이 없고 깔끔한 만가닥버섯이에요! 볶음이나 국물에 넣어 부드럽게 익히시면 입맛 살리기에 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "지방 흡수를 억제하고 콜레스테롤 수치를 내리는 데 도움을 줍니다.",
+      "good_compatibility": "양파, 당근, 돼지고기",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 517,
+    "category": "균류",
+    "standard_name": "노루궁뎅이버섯",
+    "dialects": {"중부": ["노루궁뎅이버섯", "노루궁둥이"], "동남": ["노루궁뎅이"], "서남": ["노루궁뎅이"], "제주": ["노루궁뎅이"]},
+    "daily_recommended_amount": "약 30g~50g",
+    "elderly_friendly_guide": "할아버지, 모양이 폭신폭신 노루 털처럼 생기고 위 건강과 치매 예방에 좋다고 소문난 버섯이에요! 스펀지처럼 부드러워 어르신들이 씹기 아주 쉬우십니다.",
+    "disease_info": {
+      "caution_diseases": ["알레르기 체질"],
+      "caution_reason": "특이 체질의 경우 알레르기 반응이 나타날 수 있으므로 처음 드실 때는 소량으로 시작하세요.",
+      "good_compatibility": "계란, 된장국",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 518,
+    "category": "균류",
+    "standard_name": "황금팽이버섯 (황금팽이)",
+    "dialects": {"중부": ["황금팽이", "갈색팽이버섯"], "동남": ["황금팽이"], "서남": ["황금팽이"], "제주": ["황금팽이"]},
+    "daily_recommended_amount": "약 40g~50g",
+    "elderly_friendly_guide": "어르신, 일반 팽이버섯보다 고소한 맛과 영양이 한층 강화된 황금빛 팽이버섯이에요! 잘게 잘라 전이나 계란말이에 넣으시면 부드러운 영양 간식이 됩니다.",
+    "disease_info": {
+      "caution_diseases": ["신장 질환"],
+      "caution_reason": "칼륨 수치가 높을 수 있으므로 신장 질환 어르신은 데쳐서 물을 버린 뒤 조리해 드세요.",
+      "good_compatibility": "부추, 계란",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 519,
+    "category": "균류",
+    "standard_name": "싸리버섯",
+    "dialects": {"중부": ["싸리버섯"], "동남": ["싸리버섯"], "서남": ["싸리버섯"], "제주": ["싸리버섯"]},
+    "daily_recommended_amount": "약 30g~40g",
+    "elderly_friendly_guide": "할머니, 산호초 모양처럼 생겨 식감이 아삭하고 시원한 야생 싸리버섯이에요! 우려낸 후 나물로 볶아 드시면 어르신 입맛 회복에 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["설사 / 위장 약함"],
+      "caution_reason": "독성이 약간 있을 수 있으므로 반드시 물에 1~2일 이상 충분히 우려낸 후 푹 익혀 드셔야 안전합니다.",
+      "good_compatibility": "들기름, 마늘",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 520,
+    "category": "균류",
+    "standard_name": "꽃송이버섯",
+    "dialects": {"중부": ["꽃송이버섯"], "동남": ["꽃송이버섯"], "서남": ["꽃송이버섯"], "제주": ["꽃송이버섯"]},
+    "daily_recommended_amount": "약 20g~30g",
+    "elderly_friendly_guide": "할아버지, 꽃처럼 예쁘게 생기고 면역물질인 베타글루칸이 풍부한 프리미엄 버섯이에요! 살짝 데쳐 기름장에 찍어 드시거나 차로 끓여 드시면 건강에 으뜸입니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "면역 조절 작용이 우수하여 기력이 약해지신 어르신의 건강 관리에 매우 안정적인 식재료입니다.",
+      "good_compatibility": "참기름, 소금, 닭고기",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 521,
+    "category": "균류",
+    "standard_name": "황제버섯 (황제새송이)",
+    "dialects": {"중부": ["황제버섯"], "동남": ["황제버섯"], "서남": ["황제버섯"], "제주": ["황제버섯"]},
+    "daily_recommended_amount": "약 50g",
+    "elderly_friendly_guide": "어르신, 크기가 크고 수분이 많아 고기처럼 부드럽게 씹히는 황제버섯이에요! 결대로 얇게 잘라 구워 드시면 치아 부담 없이 아주 고소하게 드실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "식물성 단백질과 비타민이 풍부하여 혈관 정화와 근육 유지에 유리합니다.",
+      "good_compatibility": "버터, 들기름",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 522,
+    "category": "균류",
+    "standard_name": "상황버섯",
+    "dialects": {"중부": ["상황버섯", "상황"], "동남": ["상황버섯"], "서남": ["상황버섯"], "제주": ["상황버섯"]},
+    "daily_recommended_amount": "약 3g~5g (달여서 물로 복용 시)",
+    "elderly_friendly_guide": "할머니, 면역력 증진과 항암 효과로 유명한 약용 버섯 상황버섯이에요! 버섯 자체가 매우 단단하므로 얇게 썰어 물에 오랫동안 은근히 달여 따뜻한 차로 마시면 아주 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["간질환 / 간기능 저하"],
+      "caution_reason": "농축액을 과도하게 장기 복용하면 간에 부담을 줄 수 있으므로 연하게 달여 정해진 수분 섭취량 내에서 드세요.",
+      "good_compatibility": "대추, 감초",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 523,
+    "category": "균류",
+    "standard_name": "영지버섯",
+    "dialects": {"중부": ["영지버섯", "영지"], "동남": ["영지버섯"], "서남": ["영지버섯"], "제주": ["영지버섯"]},
+    "daily_recommended_amount": "약 3g~5g (차 형태)",
+    "elderly_friendly_guide": "할아버지, 붉은빛이 나며 불로초라 불릴 만큼 혈관을 청소해 주는 영지버섯이에요! 쓴맛이 나므로 대추나 꿀을 넣어 부드러운 차로 달여 드시면 기력 회복에 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["저혈압", "출혈성 질환"],
+      "caution_reason": "혈압을 낮추고 피를 묽게 하는 작용이 있으므로 항응고제를 드시는 어르신은 드시기 전 상담이 필요합니다.",
+      "good_compatibility": "대추, 꿀",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 524,
+    "category": "균류",
+    "standard_name": "동충하초",
+    "dialects": {"중부": ["동충하초"], "동남": ["동충하초"], "서남": ["동충하초"], "제주": ["동충하초"]},
+    "daily_recommended_amount": "약 2g~3g",
+    "elderly_friendly_guide": "어르신, 겨울에는 곤충이었다가 여름에 버섯으로 자라는 신비한 보양 균류 동충하초예요! 폐와 신장 기운을 북돋아 주어 잔기침이 많으신 어르신 차나 삼계탕 재료로 제격입니다.",
+    "disease_info": {
+      "caution_diseases": ["자가면역질환"],
+      "caution_reason": "면역 활성 작용이 강하므로 류마티스 등 자가면역 질환이 있으신 경우 과도한 자극이 되지 않도록 소량만 드세요.",
+      "good_compatibility": "삼계탕, 삼지구엽초",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 525,
+    "category": "균류",
+    "standard_name": "아가리쿠스 버섯 (신령버섯)",
+    "dialects": {"중부": ["아가리쿠스", "신령버섯"], "동남": ["신령버섯"], "서남": ["신령버섯"], "제주": ["아가리쿠스"]},
+    "daily_recommended_amount": "약 20g~30g (생물) / 약 3g (건조)",
+    "elderly_friendly_guide": "할머니, 아몬드 향처럼 고소한 향이 나고 면역 물질이 집약된 건강 버섯이에요! 푹 끓인 육수나 차로 우려 드시면 쇠약해진 체력을 보충해 줍니다.",
+    "disease_info": {
+      "caution_diseases": ["간기능 저하"],
+      "caution_reason": "농축 추출물 형태는 간 수치에 영향을 줄 수 있으므로 자연 상태 버섯을 물에 가볍게 달여 드시는 것을 추천합니다.",
+      "good_compatibility": "닭고기, 대추",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 526,
+    "category": "균류",
+    "standard_name": "석이버섯",
+    "dialects": {"중부": ["석이버섯", "석이"], "동남": ["석이버섯"], "서남": ["석이버섯"], "제주": ["석이버섯"]},
+    "daily_recommended_amount": "약 10g~20g (불린 상태)",
+    "elderly_friendly_guide": "할아버지, 바위 표면에서 천천히 자라 귀한 대접을 받는 석이버섯이에요! 따뜻한 물에 불려 이물질을 세척한 뒤 가늘게 채 썰어 지단이나 죽에 올리면 혈관 정화에 이롭습니다.",
+    "disease_info": {
+      "caution_diseases": ["소화약화"],
+      "caution_reason": "세척이 불완전하면 모래나 잡질이 씹힐 수 있고 섬유질이 짱짱하므로 반드시 가늘게 채 썰어 푹 익혀 드세요.",
+      "good_compatibility": "계란지단, 참기름",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 527,
+    "category": "균류",
+    "standard_name": "차가버섯",
+    "dialects": {"중부": ["차가버섯", "차가"], "동남": ["차가버섯"], "서남": ["차가버섯"], "제주": ["차가버섯"]},
+    "daily_recommended_amount": "약 1g~2g (분말 기준)",
+    "elderly_friendly_guide": "어르신, 추운 시베리아 자작나무에서 영양을 먹고 자란 검은 보물 차가버섯이에요! 미지근한 물에 가루를 타서 드시면 활력 충전과 혈당 안정에 도움이 됩니다.",
+    "disease_info": {
+      "caution_diseases": ["신장 질환 (옥살산 위험)"],
+      "caution_reason": "옥살산 성분이 들어있을 수 있으므로 신장 결석이나 신부전이 있는 어르신은 진하게 드시지 않도록 주의하세요.",
+      "good_compatibility": "미지근한 물 (60도 이하)",
+      "bad_compatibility": "팔팔 끓는 뜨거운 물 (영양소 파괴)"
+    }
+  },
+  {
+    "id": 528,
+    "category": "균류",
+    "standard_name": "복령 (백복령 / 적복령)",
+    "dialects": {"중부": ["복령", "백복령"], "동남": ["복령"], "서남": ["복령"], "제주": ["복령"]},
+    "dialects": {"중부": ["복령"], "동남": ["복령"], "서남": ["복령"], "제주": ["복령"]},
+    "daily_recommended_amount": "약 5g~10g (약재/죽 형태)",
+    "elderly_friendly_guide": "할머니, 소나무 뿌리에 자라는 균류로 마음을 안정시키고 소화를 돕는 전통 한방 균류 식품이에요! 가루를 내어 쌀죽에 섞어 복령죽으로 드시면 속이 편안해집니다.",
+    "disease_info": {
+      "caution_diseases": ["빈뇨 / 다뇨증"],
+      "caution_reason": "이뇨 작용을 촉진하여 소변을 자주 보게 하므로 소변을 너무 자주 보시는 어르신은 저녁 늦게 드시지 마세요.",
+      "good_compatibility": "쌀죽, 꿀",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 529,
+    "category": "균류",
+    "standard_name": "밤버섯 (누른대구버섯 / 개외버섯)",
+    "dialects": {"중부": ["밤버섯"], "동남": ["밤버섯"], "서남": ["밤버섯"], "제주": ["밤버섯"]},
+    "daily_recommended_amount": "약 40g~50g",
+    "elderly_friendly_guide": "할아버지, 가을 산에서 채취하며 밤송이처럼 쫄깃하고 가을 향이 가득한 야생 밤버섯이에요! 데쳐서 물에 우려낸 뒤 들기름에 볶아 드시면 별미입니다.",
+    "disease_info": {
+      "caution_diseases": ["배탈 / 아토피"],
+      "caution_reason": "야생 버섯 특성상 쓴맛과 미량의 자극이 있을 수 있으므로 소금물에 하루 정도 우려낸 뒤 가열 조리하세요.",
+      "good_compatibility": "들기름, 마늘",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 530,
+    "category": "균류",
+    "standard_name": "까치버섯 (먹버섯)",
+    "dialects": {"중부": ["까치버섯", "먹버섯"], "동남": ["먹버섯"], "서남": ["먹버섯"], "제주": ["까치버섯"]},
+    "daily_recommended_amount": "약 30g~40g",
+    "elderly_friendly_guide": "어르신, 검은 빛깔을 띠며 해조류처럼 독특한 향과 씹는 맛이 있는 야생 까치버섯이에요! 데쳐서 초고추장에 무치거나 찌개에 넣으시면 입맛을 살려줍니다.",
+    "disease_info": {
+      "caution_diseases": ["위장 약함"],
+      "caution_reason": "생으로 먹으면 탈이 날 수 있으니 반드시 끓는 물에 푹 데친 후 조리해 드셔야 합니다.",
+      "good_compatibility": "초고추장, 된장찌개",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 531,
+    "category": "균류",
+    "standard_name": "갓버섯 (큰갓버섯)",
+    "dialects": {"중부": ["갓버섯", "큰갓버섯"], "동남": ["갓버섯"], "서남": ["갓버섯"], "제주": ["갓버섯"]},
+    "daily_recommended_amount": "약 30g~40g",
+    "elderly_friendly_guide": "할머니, 우산처럼 갓이 큼직하게 퍼지고 씹는 식감이 고기처럼 부드러운 갓버섯이에요! 갓 부위만 부드럽게 들기름에 전으로 부쳐 드시면 치아가 약하셔도 드시기 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["독버섯 오인 주의"],
+      "caution_reason": "유사한 독갓버섯과 혼동하기 쉬우므로 검증된 재배산이나 정식 유통 식품으로만 안전하게 구매해 드세요.",
+      "good_compatibility": "계란, 들기름",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 532,
+    "category": "균류",
+    "standard_name": "해송이버섯 (검은라벨 느타리)",
+    "dialects": {"중부": ["해송이", "해송이버섯"], "동남": ["해송이"], "서남": ["해송이"], "제주": ["해송이"]},
+    "daily_recommended_amount": "약 50g",
+    "elderly_friendly_guide": "할아버지, 대가 단단하고 갓이 아담하며 은은한 해조류 풍미가 특징인 고급 해송이버섯이에요! 찌개나 국에 넣으면 육수가 진해지고 부드럽게 넘어갑니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "아미노산과 유기산이 풍부하여 어르신 감칠맛 섭취와 기력 보충에 좋습니다.",
+      "good_compatibility": "해물탕, 된장국",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 533,
+    "category": "균류",
+    "standard_name": "갈색양송이버섯 (포르토벨로 / 크레미니)",
+    "dialects": {"중부": ["갈색양송이", "포르토벨로"], "동남": ["갈색양송이"], "서남": ["갈색양송이"], "제주": ["포르토벨로"]},
+    "daily_recommended_amount": "약 40g~50g",
+    "elderly_friendly_guide": "어르신, 일반 양송이보다 갓이 크고 갈색을 띠며 진한 고기 풍미가 나는 버섯이에요! 얇게 잘라 구우면 입안에서 부드럽게 녹아 식사 보충에 훌륭합니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "항산화 성분인 항산화 셀레늄이 높아 어르신 노화 방지 및 면역 유지에 유익합니다.",
+      "good_compatibility": "올리브유, 소고기",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 534,
+    "category": "균류",
+    "standard_name": "이슬송이버섯 (동그라미 표고)",
+    "dialects": {"중부": ["이슬송이"], "동남": ["이슬송이"], "서남": ["이슬송이"], "제주": ["이슬송이"]},
+    "daily_recommended_amount": "약 40g",
+    "elderly_friendly_guide": "할머니, 동글동글 이슬방울처럼 생기고 줄기 없이 갓만 크게 자란 버섯이에요! 질긴 줄기가 없어 어르신들이 잘라 드실 필요 없이 부드럽게 씹어 드실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["통풍"],
+      "caution_reason": "표고 개량종으로 퓨린이 들어있으므로 요산 수치가 높으신 분은 적정 섭취량을 유지해 주세요.",
+      "good_compatibility": "굴소스, 돼지고기",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 535,
+    "category": "균류",
+    "standard_name": "트러플 (송로버섯)",
+    "dialects": {"중부": ["트러플", "송로버섯"], "동남": ["트러플"], "서남": ["트러플"], "제주": ["트러플"]},
+    "daily_recommended_amount": "약 2g~5g (슬라이스 또는 오일 소량)",
+    "elderly_friendly_guide": "할아버지, 땅속에서 자라 깊고 고소한 오묘한 향을 내는 세계적인 귀한 버섯이에요! 아주 얇게 가루나 슬라이스로 어르신 죽이나 스프에 뿌려 드시면 입맛을 아주 돋워줍니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "풍미를 내는 용도로 아주 소량 섭취하므로 어르신 건강 및 소화에 부담을 주지 않습니다.",
+      "good_compatibility": "계란죽, 감자스프, 계란후라이",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 536,
+    "category": "균류",
+    "standard_name": "꾀꼬리버섯 (오이꽃버섯 / 샹테렐)",
+    "dialects": {"중부": ["꾀꼬리버섯", "오이꽃버섯"], "동남": ["오이꽃버섯"], "서남": ["오이꽃버섯"], "제주": ["꾀꼬리버섯"]},
+    "daily_recommended_amount": "약 30g~40g",
+    "elderly_friendly_guide": "어르신, 노랗고 예쁜 꾀꼬리 색깔을 띠며 은은한 과일 향이 나는 버섯이에요! 버터에 부드럽게 볶아 드시면 비타민 A가 풍부해 어르신 시력 보호에 도움을 줍니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "비타민 A와 D가 풍부하여 어르신 눈 건강 및 칼슘 흡수율을 높여줍니다.",
+      "good_compatibility": "버터, 파스타, 계란",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 537,
+    "category": "균류",
+    "standard_name": "가지버섯 (민자주방망이버섯)",
+    "dialects": {"중부": ["가지버섯", "민자주방망이"], "동남": ["가지버섯"], "서남": ["가지버섯"], "제주": ["가지버섯"]},
+    "daily_recommended_amount": "약 30g~40g",
+    "elderly_friendly_guide": "할머니, 보랏빛을 띠며 살이 두툼하고 고소한 야생 가지버섯이에요! 끓는 물에 살짝 데쳐 나물처럼 볶아 드시면 씹는 식감이 연하고 고소합니다.",
+    "disease_info": {
+      "caution_diseases": ["배탈 / 생식 금지"],
+      "caution_reason": "날것으로 먹으면 소화 장애를 일으킬 수 있으므로 반드시 완전히 익혀 드셔야 안전합니다.",
+      "good_compatibility": "들기름, 마늘",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 538,
+    "category": "균류",
+    "standard_name": "잎새버섯 (마이타케 / Maitake)",
+    "dialects": {"중부": ["잎새버섯", "마이타케"], "동남": ["잎새버섯"], "서남": ["잎새버섯"], "제주": ["잎새버섯"]},
+    "daily_recommended_amount": "약 40g~50g",
+    "elderly_friendly_guide": "할아버지, 잎사귀가 겹겹이 겹쳐진 모양으로 면역력 강화와 혈당 조절에 탁월한 잎새버섯이에요! 결대로 가늘게 찢어 찌개에 넣으시면 부드럽게 감겨 드시기 편합니다.",
+    "disease_info": {
+      "caution_diseases": ["당뇨병 (혈당약 복용 시)"],
+      "caution_reason": "자연 혈당 강하 작용이 있으므로 당뇨약을 드시는 어르신은 저혈당에 주의하며 적정량을 유지하세요.",
+      "good_compatibility": "된장찌개, 쇠고기",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 539,
+    "category": "균류",
+    "standard_name": "포르치니 (그물버섯 / Porcini)",
+    "dialects": {"중부": ["포르치니", "그물버섯"], "동남": ["포르치니"], "서남": ["포르치니"], "제주": ["포르치니"]},
+    "daily_recommended_amount": "약 10g~20g (건조 후 불린 기준)",
+    "elderly_friendly_guide": "어르신, 깊은 흙향과 진한 감칠맛이 특징인 서양의 고급 버섯 포르치니예요! 불린 물과 버섯을 함께 따뜻한 수프나 죽에 넣으시면 입맛을 부드럽게 살려줍니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "풍미와 아미노산이 풍부하여 입맛이 없으신 어르신의 기력 회복 요리에 감칠맛을 더해줍니다.",
+      "good_compatibility": "감자수프, 쌀죽, 올리브유",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 540,
+    "category": "균류",
+    "standard_name": "망태버섯 (노랑망태버섯 / 흰망태버섯)",
+    "dialects": {"중부": ["망태버섯"], "동남": ["망태버섯"], "서남": ["망태버섯"], "제주": ["망태버섯"]},
+    "daily_recommended_amount": "약 20g~30g",
+    "elderly_friendly_guide": "할머니, 레이스 드레스처럼 화려하게 피어나는 귀한 고급 버섯 망태버섯이에요! 식감이 아주 부드러워 푹 끓인 고급 국물 요리에 넣으면 목넘김이 매끄럽습니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "혈압을 안정시키고 지방을 줄여주는 데 도움을 주는 귀한 식재료입니다.",
+      "good_compatibility": "닭백숙, 삼계탕",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 541,
+    "category": "균류",
+    "standard_name": "버들송이버섯 (버들송이)",
+    "dialects": {"중부": ["버들송이", "버들송이버섯"], "동남": ["버들송이"], "서남": ["버들송이"], "제주": ["버들송이"]},
+    "daily_recommended_amount": "약 40g~50g",
+    "elderly_friendly_guide": "할아버지, 대가 길고 아담한 갓을 가졌으며 줄기가 아삭하면서도 부드러운 버들송이예요! 살짝 데쳐 양념에 무쳐 드시면 어르신 혈관 정화에 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "식이섬유가 풍부해 장 운동 촉진과 콜레스테롤 감소에 유용합니다.",
+      "good_compatibility": "굴소스, 야채볶음",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 542,
+    "category": "균류",
+    "standard_name": "산타리버섯 (고기느타리)",
+    "dialects": {"중부": ["산타리", "산타리버섯"], "동남": ["산타리"], "서남": ["산타리"], "제주": ["산타리"]},
+    "daily_recommended_amount": "약 50g",
+    "elderly_friendly_guide": "어르신, 산속 야생 느타리를 개량하여 고기처럼 쫄깃하고 즙이 풍부한 산타리버섯이에요! 얇게 찢어 결대로 익혀 드시면 치아 부담 없이 감칠맛을 즐기실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "수분과 식물성 단백질이 풍부하여 치아가 약한 어르신의 고기 대체 식재료로 우수합니다.",
+      "good_compatibility": "불고기 양념, 양파",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 543,
+    "category": "균류",
+    "standard_name": "참송이버섯 (참송이)",
+    "dialects": {"중부": ["참송이", "참송이버섯"], "동남": ["참송이"], "서남": ["참송이"], "제주": ["참송이"]},
+    "daily_recommended_amount": "약 30g~40g",
+    "elderly_friendly_guide": "할머니, 자연산 송이버섯의 향과 표고의 영양을 더해 재배한 프리미엄 참송이에요! 결대로 부드럽게 찢어 살짝 기름장에 찍어 드시면 소화가 잘 됩니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "베타글루칸 함량이 높고 식감이 질기지 않아 어르신 기력 보충식으로 안정적입니다.",
+      "good_compatibility": "참기름, 소금",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 544,
+    "category": "균류",
+    "standard_name": "백령버섯 (백령고)",
+    "dialects": {"중부": ["백령버섯", "백령고"], "동남": ["백령버섯"], "서남": ["백령버섯"], "제주": ["백령버섯"]},
+    "daily_recommended_amount": "약 40g~50g",
+    "elderly_friendly_guide": "할아버지, 눈처럼 하얗고 관자처럼 부드럽게 씹히는 고급 백령버섯이에요! 얇게 슬라이스해서 구워 드시면 소화가 촉진되고 입맛을 올려줍니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "위장 운동을 돕고 소화 흡수율이 높아 속이 자주 더부룩한 어르신에게 좋습니다.",
+      "good_compatibility": "버터, 들기름",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 545,
+    "category": "균류",
+    "standard_name": "노랑느타리버섯 (노랑느타리)",
+    "dialects": {"중부": ["노랑느타리"], "동남": ["노랑느타리"], "서남": ["노랑느타리"], "제주": ["노랑느타리"]},
+    "daily_recommended_amount": "약 40g~50g",
+    "elderly_friendly_guide": "어르신, 개나리처럼 화사한 노란빛을 띠고 혈관 강화 성분이 뛰어난 노랑느타리버섯이에요! 국이나 전으로 조리하시면 색감도 예쁘고 입맛도 절로 도십니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "항산화 물질이 풍부해 어르신의 혈관 탄력 유지와 노화 방지에 이롭습니다.",
+      "good_compatibility": "계란, 부추",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 546,
+    "category": "균류",
+    "standard_name": "분홍느타리버섯 (분홍느타리)",
+    "dialects": {"중부": ["분홍느타리"], "동남": ["분홍느타리"], "서남": ["분홍느타리"], "제주": ["분홍느타리"]},
+    "daily_recommended_amount": "약 40g~50g",
+    "elderly_friendly_guide": "할머니, 분홍빛 꽃처럼 화사하고 질감이 야들야들한 분홍느타리버섯이에요! 부드럽게 볶아 드시면 치아 부담 없이 편안하게 영양을 챙기실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "열을 가하면 분홍빛이 살짝 연해지며 식이섬유가 풍부해 변비 예방에 좋습니다.",
+      "good_compatibility": "당근, 양파",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 547,
+    "category": "균류",
+    "standard_name": "백화고 (최상급 건표고)",
+    "dialects": {"중부": ["백화고"], "동남": ["백화고"], "서남": ["백화고"], "제주": ["백화고"]},
+    "daily_recommended_amount": "약 15g~20g (불린 상태)",
+    "elderly_friendly_guide": "할아버지, 거북이 등껍질처럼 거칠게 갈라진 표고버섯의 으뜸 백화고예요! 미지근한 물에 충분히 불린 뒤 푹 끓여 드시면 진한 감칠맛과 영양이 배가 됩니다.",
+    "disease_info": {
+      "caution_diseases": ["통풍"],
+      "caution_reason": "건조 과정을 통해 퓨린이 농축되어 있으므로 통풍이 있으신 어르신은 불린 국물 위주로 적량만 사용하세요.",
+      "good_compatibility": "무, 무조림, 소고기",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 548,
+    "category": "균류",
+    "standard_name": "흑화고 (숙성 건표고)",
+    "dialects": {"중부": ["흑화고"], "동남": ["흑화고"], "서남": ["흑화고"], "제주": ["흑화고"]},
+    "daily_recommended_amount": "약 15g~20g (불린 상태)",
+    "elderly_friendly_guide": "어르신, 이슬을 맞고 자라 검고 묵직한 풍미가 일품인 고급 건표고 흑화고예요! 푹 삶아 가늘게 채 썰어 드시면 뼈 건강을 돕는 비타민 D를 듬뿍 챙기실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["통풍"],
+      "caution_reason": "요산 수치 관리가 필요한 어르신은 섭취량을 조절하시는 것이 권장됩니다.",
+      "good_compatibility": "갈비찜, 무국",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 549,
+    "category": "균류",
+    "standard_name": "머쉬마루버섯 (머쉬마루)",
+    "dialects": {"중부": ["머쉬마루"], "동남": ["머쉬마루"], "서남": ["머쉬마루"], "제주": ["머쉬마루"]},
+    "daily_recommended_amount": "약 40g~50g",
+    "elderly_friendly_guide": "할머니, 대가 길고 갓이 동글동글하며 씹을수록 단맛이 나는 품종 버섯이에요! 찌개에 넣거나 들기름에 볶으면 부드럽게 넘어가 식사 보충에 좋습니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "수분 함량이 높고 섬유질이 부드러워 어르신 소화와 배변 활동에 도움이 됩니다.",
+      "good_compatibility": "들기름, 애호박",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 550,
+    "category": "균류",
+    "standard_name": "초고버섯 (총각버섯 / Straw Mushroom)",
+    "dialects": {"중부": ["초고버섯", "총각버섯"], "동남": ["초고버섯"], "서남": ["초고버섯"], "제주": ["초고버섯"]},
+    "daily_recommended_amount": "약 30g~40g",
+    "elderly_friendly_guide": "할아버지, 봉오리 모양으로 동글동글하고 속이 촉촉하여 부드러운 아시아 전통 버섯이에요! 찌개나 볶음에 넣으면 즙이 팡 터지며 치아 부담 없이 부드럽게 드실 수 있습니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "비타민 C와 비타민 B군이 잘 보존되어 있어 어르신 피로 회복에 이롭습니다.",
+      "good_compatibility": "청경채, 굴소스",
+      "bad_compatibility": "없음"
+    }
+  },
+  {
+    "id": 551,
+    "category": "균류",
+    "standard_name": "산호침버섯 (산호버섯)",
+    "dialects": {"중부": ["산호침버섯"], "동남": ["산호침버섯"], "서남": ["산호침버섯"], "제주": ["산호침버섯"]},
+    "daily_recommended_amount": "약 30g~40g",
+    "elderly_friendly_guide": "어르신, 바닷속 산호초처럼 가지런히 갈라지고 질감이 폭신폭신한 버섯이에요! 노루궁뎅이버섯처럼 부드러워 어르신 위 건강과 소화에 아주 효과적입니다.",
+    "disease_info": {
+      "caution_diseases": ["특별한 부작용 없음"],
+      "caution_reason": "자극이 적고 스펀지처럼 부드러워 위장이 약하거나 연하 작용이 불편한 어르신에게 안성맞춤입니다.",
+      "good_compatibility": "계란국, 두부",
+      "bad_compatibility": "없음"
+    }
+  },
+  
+
   
     
 
